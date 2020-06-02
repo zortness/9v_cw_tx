@@ -3,8 +3,8 @@ EAGLE AutoRouter Statistics:
 Job           : C:/Users/kkopf/Documents/EAGLE/projects/9v_cw_tx/main.brd
 
 Start at      : 18:54:49 (5/26/2020)
-End at        : 19:03:16 (5/26/2020)
-Elapsed time  : 00:08:23
+End at        : 14:48:43 (6/1/2020)
+Elapsed time  : 5d 19:53
 
 Signals       :    34   RoutingGrid: 6 mil  Layers: 2
 Connections   :    97   predefined:  0 ( 0 Vias )
@@ -13,7 +13,7 @@ Router memory :   318696
 
 Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
 
-Time per pass     :  00:00:02  00:00:07  00:00:00  00:00:01  00:00:00  00:00:01  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00  00:00:01  00:00:00  00:08:10
+Time per pass     :  00:00:02  00:00:07  00:00:00  00:00:01  00:00:00  00:00:01  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00  00:00:01  00:00:00  5d 19:53
 Number of Ripups  :         0        56         0         0         0         0         0         0         0         0         0         0         0         0
 max. Level        :         0         3         0         0         0         0         0         0         0         0         0         0         0         0
 max. Total        :         0        35         0         0         0         0         0         0         0         0         0         0         0         0
