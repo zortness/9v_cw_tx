@@ -5,6 +5,16 @@ and [this blog post](http://k6jca.blogspot.com/2009/08/9v-qrp-transceiver.html).
 
 Thank you to Jeff for your help in debugging my implementation of your design.
 
+## About
+
+This is a very simple, direct conversion CW transciever that will operate on the 40m 
+amateur radio band. It requires an external speaker or headphones, an external antenna,
+and an external keyer for sending. 
+
+This design is intended to allow modifying the center frequency of the transciever by
+changing out the oscillator crystal without re-soldering any parts. 
+
+
 ## Notes
 
 This is still a work in progress. The prototype I have made so far using a proto board
