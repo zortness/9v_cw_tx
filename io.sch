@@ -6975,6 +6975,10 @@ Source: http://cache.national.com/ds/LM/LM386.pdf</description>
 <text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
+<package name="9V_968_PAD">
+<smd name="P$1" x="0" y="6.35" dx="2.54" dy="2.54" layer="1"/>
+<smd name="P$2" x="0" y="-6.35" dx="2.54" dy="2.54" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TRANS_NPN">
@@ -7129,6 +7133,15 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 </gates>
 <devices>
 <device name="" package="9V_968">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="9V_968_SMD" package="9V_968_PAD">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
@@ -8034,9 +8047,11 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="power" width="0.3048" drill="0">
+</class>
 </classes>
 <parts>
-<part name="C22" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="33u/16V"/>
+<part name="C22" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="33U"/>
 <part name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="0.1U"/>
 <part name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="10n"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -8048,9 +8063,9 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <part name="C5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="0.1u"/>
 <part name="C16" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="10n"/>
 <part name="C17" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="10n"/>
-<part name="C23" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="10u/16V"/>
-<part name="C25" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="10u/16V"/>
-<part name="C24" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="10u/16V"/>
+<part name="C23" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="10u"/>
+<part name="C25" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="10u"/>
+<part name="C24" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="10u"/>
 <part name="U3" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM386?-*" device="M" package3d_urn="urn:adsk.eagle:package:16404/2" technology="1"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -8085,9 +8100,9 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <part name="L5" library="Inductor" library_urn="urn:adsk.eagle:library:16378440" deviceset="L" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16378480/1" technology="_" value="1.2uH"/>
 <part name="L4" library="zort2" deviceset="B966AS-160M-P3" device="" value="16uH"/>
 <part name="L2" library="Inductor" library_urn="urn:adsk.eagle:library:16378440" deviceset="L" device="CHIP-1008(2520-METRIC)" package3d_urn="urn:adsk.eagle:package:16378469/1" technology="_" value="470uH"/>
-<part name="U$2" library="zort2" deviceset="9V_968" device=""/>
 <part name="Q2" library="zort2" deviceset="2SCR574D3TL1" device=""/>
 <part name="Q1" library="zort2" deviceset="MMBT2222A-7-F" device="SOT-23_DIO-M" value="MMBT2222A"/>
+<part name="U$1" library="zort2" deviceset="9V_968" device="9V_968_SMD"/>
 </parts>
 <sheets>
 <sheet>
@@ -8286,7 +8301,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="NAME" x="22.86" y="-15.24" size="1.778" layer="95" rot="R90" align="center"/>
 <attribute name="VALUE" x="27.94" y="-15.24" size="1.778" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="U$2" gate="G$1" x="-78.74" y="88.9" smashed="yes"/>
 <instance part="Q2" gate="A" x="40.64" y="0" smashed="yes">
 <attribute name="NAME" x="45.72" y="1.27" size="2.54" layer="95" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="45.72" y="-3.81" size="2.54" layer="96" ratio="10" rot="SR0"/>
@@ -8295,11 +8309,12 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="NAME" x="-50.4444" y="-13.7414" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="-51.0794" y="-26.4414" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
+<instance part="U$1" gate="G$1" x="-78.74" y="88.9" smashed="yes"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="VIN" class="0">
+<net name="VIN" class="1">
 <segment>
 <wire x1="-66.04" y1="93.98" x2="-48.26" y2="93.98" width="0.1524" layer="91"/>
 <junction x="-48.26" y="93.98"/>
@@ -8314,7 +8329,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="-22.86" y1="93.98" x2="-22.86" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="VI1"/>
 <wire x1="-22.86" y1="93.98" x2="-12.7" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="P$1"/>
+<pinref part="U$1" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="VS"/>
@@ -8429,8 +8444,8 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <pinref part="L2" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$2"/>
 <pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="U$1" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="6V_DC" class="0">
