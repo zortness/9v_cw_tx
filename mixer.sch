@@ -6790,6 +6790,8 @@ type 0309, grid 2.5 mm</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="power" width="0.3048" drill="0">
+</class>
 </classes>
 <parts>
 <part name="L1" library="MLF2012E5R6KT000" deviceset="MLF2012E5R6KT000" device="" value="10uH"/>
@@ -6991,7 +6993,7 @@ type 0309, grid 2.5 mm</description>
 <label x="-10.16" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="6V_DC" class="0">
+<net name="6V_DC" class="1">
 <segment>
 <pinref part="U2" gate="G$1" pin="VCC"/>
 <wire x1="104.14" y1="93.98" x2="111.76" y2="93.98" width="0.1524" layer="91"/>
@@ -7166,7 +7168,7 @@ type 0309, grid 2.5 mm</description>
 <pinref part="R5" gate="A" pin="2"/>
 </segment>
 </net>
-<net name="VIN" class="0">
+<net name="VIN" class="1">
 <segment>
 <pinref part="JP1" gate="A" pin="7"/>
 <wire x1="-40.64" y1="15.24" x2="-60.96" y2="15.24" width="0.1524" layer="91"/>
