@@ -271,23 +271,20 @@ UsedLibraryUrn="urn:adsk.eagle:library:198"
 UsedLibraryUrn="urn:adsk.eagle:library:199"
 UsedLibrary="C:/Users/kkopf/Documents/EAGLE/libraries/MLF2012E5R6KT000.lbr"
 UsedLibrary="C:/Users/kkopf/Documents/EAGLE/libraries/zort2.lbr"
+UsedLibrary="C:/Users/kkopf/Documents/EAGLE/libraries/SJ-3523-SMT-TR.lbr"
 
 [Win_1]
-Type="Control Panel"
-Number=0
-
-[Win_2]
-Type="Schematic Editor"
-Number=1
-File="mixer.sch"
-View="-84.0516 2.56235 188.192 129.518"
-WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
+Type="Library Editor"
+Number=3
+File="C:/Users/kkopf/Documents/EAGLE/libraries/zort2.lbr"
+View="-9.60704 -9.1161 5.88594 7.81867"
+WireWidths=" 0.0762 0.1016 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524 0.127"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
 ViaDiameters=" 0.55 0.6 0.65 0.7 0.75 0.8 0.85 0.9 0.95 1 1.05 1.1 1.15 1.2 1.3 0"
 ViaDrills=" 0.2 0.25 0.3 0.4 0.45 0.5 0.55 0.6 0.65 0.7 0.75 0.8 0.85 0.9 1 0.35"
 HoleDrills=" 0.2 0.25 0.3 0.4 0.45 0.5 0.55 0.6 0.65 0.7 0.75 0.8 0.85 0.9 1 0.35"
-TextSizes=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.778"
+TextSizes=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.778 1.27"
 PolygonSpacings=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.27"
 PolygonIsolates=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 MiterRadiuss=" 0.254 0.3175 0.635 1.27 2.54 1 2 2.5 5 7.5 10 0"
@@ -297,7 +294,7 @@ DimensionExtLengths=" 1.27 2.54 1 2 3 0"
 DimensionExtOffsets=" 1.27 2.54 1 2 3 0"
 SmdSizes=" 0.3048 0.1524 0.4064 0.2032 0.6096 0.3048 0.8128 0.4064 1.016 0.508 1.27 0.6604 1.4224 0.7112 1.6764 0.8128 1.778 0.9144 1.9304 0.9652 2.1844 1.0668 2.54 1.27 3.81 1.9304 5.08 2.54 6.4516 3.2512 1.27 0.635"
 WireBend=0
-WireBendSet=31
+WireBendSet=0
 WireCap=1
 MiterStyle=1
 PadShape=0
@@ -318,14 +315,14 @@ SwapLevel=0
 ArcDirection=0
 AddLevel=2
 PadsSameType=0
-Layer=91
-Sheet="1"
+Layer=21
+Package="SMA_EDGELAUNCH"
 
-[Win_3]
+[Win_2]
 Type="Board Editor"
 Number=2
-File="mixer.brd"
-View="-1.14655 -0.799591 24.1336 40.7792"
+File="io.brd"
+View="-2.04181 -5.47656 40.0722 44.4497"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
@@ -363,7 +360,11 @@ SwapLevel=0
 ArcDirection=0
 AddLevel=2
 PadsSameType=0
-Layer=1
+Layer=21
+
+[Win_3]
+Type="Control Panel"
+Number=0
 
 [Desktop]
 Screen="2560 1440"
