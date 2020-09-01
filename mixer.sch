@@ -6650,6 +6650,203 @@ type 0309, grid 2.5 mm</description>
 <wire x1="-0.127" y1="-0.8382" x2="0.127" y2="-0.8382" width="0" layer="51" curve="-180"/>
 <text x="-0.7366" y="0.6096" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
+<package name="INDM4532X32_W">
+<description>&lt;b&gt;&lt;u&gt;TDK NL Series Inductor Footprint&lt;/u&gt;&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;Device:&lt;/b&gt; 4.5 x 3.2 x 3.2 (mm)&lt;br/&gt;&lt;br/&gt;
+
+&lt;b&gt;Footprint&lt;/b&gt;&lt;br/&gt;
+3.0mm middle gap (1.5m gap per side)&lt;br/&gt;
+1.5mm Pad width&lt;br/&gt;
+2.8mm Pad height&lt;br/&gt;</description>
+<wire x1="-2.4" y1="1.7" x2="2.4" y2="1.7" width="0.12" layer="21"/>
+<wire x1="-2.4" y1="-1.7" x2="2.4" y2="-1.7" width="0.12" layer="21"/>
+<wire x1="2.4" y1="-1.7" x2="-2.4" y2="-1.7" width="0.12" layer="51"/>
+<wire x1="-2.4" y1="-1.7" x2="-2.4" y2="1.7" width="0.12" layer="51"/>
+<wire x1="-2.4" y1="1.7" x2="2.4" y2="1.7" width="0.12" layer="51"/>
+<wire x1="2.4" y1="1.7" x2="2.4" y2="-1.7" width="0.12" layer="51"/>
+<smd name="1" x="-2.4" y="0" dx="1.7931" dy="2.79908125" layer="1"/>
+<smd name="2" x="2.4" y="0" dx="1.7931" dy="2.79908125" layer="1"/>
+<text x="0" y="2.335" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.335" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="INDC1006X60N" urn="urn:adsk.eagle:footprint:16378444/1" library_version="5">
+<description>Chip, 1.00 X 0.60 X 0.60 mm body
+&lt;p&gt;Chip package with body size 1.00 X 0.60 X 0.60 mm&lt;/p&gt;</description>
+<wire x1="0.55" y1="0.6786" x2="-0.55" y2="0.6786" width="0.12" layer="21"/>
+<wire x1="0.55" y1="-0.6786" x2="-0.55" y2="-0.6786" width="0.12" layer="21"/>
+<wire x1="0.55" y1="-0.35" x2="-0.55" y2="-0.35" width="0.12" layer="51"/>
+<wire x1="-0.55" y1="-0.35" x2="-0.55" y2="0.35" width="0.12" layer="51"/>
+<wire x1="-0.55" y1="0.35" x2="0.55" y2="0.35" width="0.12" layer="51"/>
+<wire x1="0.55" y1="0.35" x2="0.55" y2="-0.35" width="0.12" layer="51"/>
+<smd name="1" x="-0.4846" y="0" dx="0.56" dy="0.7291" layer="1"/>
+<smd name="2" x="0.4846" y="0" dx="0.56" dy="0.7291" layer="1"/>
+<text x="0" y="1.3136" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.3136" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="INDC1608X95N" urn="urn:adsk.eagle:footprint:16378451/1" library_version="5">
+<description>Chip, 1.60 X 0.80 X 0.95 mm body
+&lt;p&gt;Chip package with body size 1.60 X 0.80 X 0.95 mm&lt;/p&gt;</description>
+<wire x1="0.875" y1="0.7991" x2="-0.875" y2="0.7991" width="0.12" layer="21"/>
+<wire x1="0.875" y1="-0.7991" x2="-0.875" y2="-0.7991" width="0.12" layer="21"/>
+<wire x1="0.875" y1="-0.475" x2="-0.875" y2="-0.475" width="0.12" layer="51"/>
+<wire x1="-0.875" y1="-0.475" x2="-0.875" y2="0.475" width="0.12" layer="51"/>
+<wire x1="-0.875" y1="0.475" x2="0.875" y2="0.475" width="0.12" layer="51"/>
+<wire x1="0.875" y1="0.475" x2="0.875" y2="-0.475" width="0.12" layer="51"/>
+<smd name="1" x="-0.7851" y="0" dx="0.9" dy="0.9702" layer="1"/>
+<smd name="2" x="0.7688" y="0" dx="0.9326" dy="0.9702" layer="1"/>
+<text x="0" y="1.4341" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.4341" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="INDC2009X120" urn="urn:adsk.eagle:footprint:16378448/1" library_version="5">
+<description>Chip, 2.00 X 0.90 X 1.20 mm body
+&lt;p&gt;Chip package with body size 2.00 X 0.90 X 1.20 mm&lt;/p&gt;</description>
+<wire x1="1.15" y1="0.9192" x2="-1.15" y2="0.9192" width="0.12" layer="21"/>
+<wire x1="1.15" y1="-0.9192" x2="-1.15" y2="-0.9192" width="0.12" layer="21"/>
+<wire x1="1.15" y1="-0.6" x2="-1.15" y2="-0.6" width="0.12" layer="51"/>
+<wire x1="-1.15" y1="-0.6" x2="-1.15" y2="0.6" width="0.12" layer="51"/>
+<wire x1="-1.15" y1="0.6" x2="1.15" y2="0.6" width="0.12" layer="51"/>
+<wire x1="1.15" y1="0.6" x2="1.15" y2="-0.6" width="0.12" layer="51"/>
+<smd name="1" x="-1.0673" y="0" dx="0.8757" dy="1.2103" layer="1"/>
+<smd name="2" x="1.0673" y="0" dx="0.8757" dy="1.2103" layer="1"/>
+<text x="0" y="1.5542" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.5542" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="INDC2520X120N" urn="urn:adsk.eagle:footprint:16378452/1" locally_modified="yes" library_version="5">
+<description>Chip, 2.50 X 2.00 X 1.20 mm body
+&lt;p&gt;Chip package with body size 2.50 X 2.00 X 1.20 mm&lt;/p&gt;</description>
+<wire x1="1.3" y1="1.3786" x2="-1.3" y2="1.3786" width="0.12" layer="21"/>
+<wire x1="1.3" y1="-1.3786" x2="-1.3" y2="-1.3786" width="0.12" layer="21"/>
+<wire x1="1.3" y1="-1.05" x2="-1.3" y2="-1.05" width="0.12" layer="51"/>
+<wire x1="-1.3" y1="-1.05" x2="-1.3" y2="1.05" width="0.12" layer="51"/>
+<wire x1="-1.3" y1="1.05" x2="1.3" y2="1.05" width="0.12" layer="51"/>
+<wire x1="1.3" y1="1.05" x2="1.3" y2="-1.05" width="0.12" layer="51"/>
+<smd name="1" x="-1.633" y="0" dx="1.5871" dy="2.1291" layer="1"/>
+<smd name="2" x="1.633" y="0" dx="1.5871" dy="2.1291" layer="1"/>
+<text x="0" y="2.0136" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.0136" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="INDC3216X190" urn="urn:adsk.eagle:footprint:16378443/1" library_version="5">
+<description>Chip, 3.20 X 1.60 X 1.90 mm body
+&lt;p&gt;Chip package with body size 3.20 X 1.60 X 1.90 mm&lt;/p&gt;</description>
+<wire x1="1.75" y1="1.2692" x2="-1.75" y2="1.2692" width="0.12" layer="21"/>
+<wire x1="1.75" y1="-1.2692" x2="-1.75" y2="-1.2692" width="0.12" layer="21"/>
+<wire x1="1.75" y1="-0.95" x2="-1.75" y2="-0.95" width="0.12" layer="51"/>
+<wire x1="-1.75" y1="-0.95" x2="-1.75" y2="0.95" width="0.12" layer="51"/>
+<wire x1="-1.75" y1="0.95" x2="1.75" y2="0.95" width="0.12" layer="51"/>
+<wire x1="1.75" y1="0.95" x2="1.75" y2="-0.95" width="0.12" layer="51"/>
+<smd name="1" x="-1.5836" y="0" dx="1.0431" dy="1.9103" layer="1"/>
+<smd name="2" x="1.5836" y="0" dx="1.0431" dy="1.9103" layer="1"/>
+<text x="0" y="1.9042" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.9042" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="INDC4509X190" urn="urn:adsk.eagle:footprint:16378447/1" library_version="5">
+<description>Chip, 4.50 X 0.90 X 1.90 mm body
+&lt;p&gt;Chip package with body size 4.50 X 0.90 X 1.90 mm&lt;/p&gt;</description>
+<wire x1="2.4" y1="0.9192" x2="-2.4" y2="0.9192" width="0.12" layer="21"/>
+<wire x1="2.4" y1="-0.9192" x2="-2.4" y2="-0.9192" width="0.12" layer="21"/>
+<wire x1="2.4" y1="-0.6" x2="-2.4" y2="-0.6" width="0.12" layer="51"/>
+<wire x1="-2.4" y1="-0.6" x2="-2.4" y2="0.6" width="0.12" layer="51"/>
+<wire x1="-2.4" y1="0.6" x2="2.4" y2="0.6" width="0.12" layer="51"/>
+<wire x1="2.4" y1="0.6" x2="2.4" y2="-0.6" width="0.12" layer="51"/>
+<smd name="1" x="-2.11" y="0" dx="1.2904" dy="1.2103" layer="1"/>
+<smd name="2" x="2.11" y="0" dx="1.2904" dy="1.2103" layer="1"/>
+<text x="0" y="1.5542" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.5542" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="INDM11072X750N" urn="urn:adsk.eagle:footprint:16378449/1" library_version="5">
+<description>Molded Body, 11.00 X 7.20 X 7.50 mm body
+&lt;p&gt;Molded Body package with body size 11.00 X 7.20 X 7.50 mm&lt;/p&gt;</description>
+<wire x1="-5.5" y1="3.6" x2="5.5" y2="3.6" width="0.12" layer="21"/>
+<wire x1="-5.5" y1="-3.6" x2="5.5" y2="-3.6" width="0.12" layer="21"/>
+<wire x1="5.5" y1="-3.6" x2="-5.5" y2="-3.6" width="0.12" layer="51"/>
+<wire x1="-5.5" y1="-3.6" x2="-5.5" y2="3.6" width="0.12" layer="51"/>
+<wire x1="-5.5" y1="3.6" x2="5.5" y2="3.6" width="0.12" layer="51"/>
+<wire x1="5.5" y1="3.6" x2="5.5" y2="-3.6" width="0.12" layer="51"/>
+<smd name="1" x="-4.125" y="0" dx="3.8618" dy="2.1118" layer="1"/>
+<smd name="2" x="4.125" y="0" dx="3.8618" dy="2.1118" layer="1"/>
+<text x="0" y="4.235" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.235" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="INDM3225X240" urn="urn:adsk.eagle:footprint:16378450/1" library_version="5">
+<description>Molded Body, 3.20 X 2.50 X 2.40 mm body
+&lt;p&gt;Molded Body package with body size 3.20 X 2.50 X 2.40 mm&lt;/p&gt;</description>
+<wire x1="-1.7" y1="1.35" x2="1.7" y2="1.35" width="0.12" layer="21"/>
+<wire x1="-1.7" y1="-1.35" x2="1.7" y2="-1.35" width="0.12" layer="21"/>
+<wire x1="1.7" y1="-1.35" x2="-1.7" y2="-1.35" width="0.12" layer="51"/>
+<wire x1="-1.7" y1="-1.35" x2="-1.7" y2="1.35" width="0.12" layer="51"/>
+<wire x1="-1.7" y1="1.35" x2="1.7" y2="1.35" width="0.12" layer="51"/>
+<wire x1="1.7" y1="1.35" x2="1.7" y2="-1.35" width="0.12" layer="51"/>
+<smd name="1" x="-1.4783" y="0" dx="1.4588" dy="1.9291" layer="1"/>
+<smd name="2" x="1.4783" y="0" dx="1.4588" dy="1.9291" layer="1"/>
+<text x="0" y="1.985" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.985" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="INDM4030X267" urn="urn:adsk.eagle:footprint:16378445/1" library_version="5">
+<description>Molded Body, 4.07 X 3.05 X 2.67 mm body
+&lt;p&gt;Molded Body package with body size 4.07 X 3.05 X 2.67 mm&lt;/p&gt;</description>
+<wire x1="-2.16" y1="1.59" x2="2.16" y2="1.59" width="0.12" layer="21"/>
+<wire x1="-2.16" y1="-1.59" x2="2.16" y2="-1.59" width="0.12" layer="21"/>
+<wire x1="2.16" y1="-1.59" x2="-2.16" y2="-1.59" width="0.12" layer="51"/>
+<wire x1="-2.16" y1="-1.59" x2="-2.16" y2="1.59" width="0.12" layer="51"/>
+<wire x1="-2.16" y1="1.59" x2="2.16" y2="1.59" width="0.12" layer="51"/>
+<wire x1="2.16" y1="1.59" x2="2.16" y2="-1.59" width="0.12" layer="51"/>
+<smd name="1" x="-1.514" y="0" dx="2.3041" dy="1.4202" layer="1"/>
+<smd name="2" x="1.514" y="0" dx="2.3041" dy="1.4202" layer="1"/>
+<text x="0" y="2.225" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.225" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="INDM4532X340" urn="urn:adsk.eagle:footprint:16378453/1" library_version="5">
+<description>Molded Body, 4.50 X 3.20 X 3.40 mm body
+&lt;p&gt;Molded Body package with body size 4.50 X 3.20 X 3.40 mm&lt;/p&gt;</description>
+<wire x1="-2.4" y1="1.7" x2="2.4" y2="1.7" width="0.12" layer="21"/>
+<wire x1="-2.4" y1="-1.7" x2="2.4" y2="-1.7" width="0.12" layer="21"/>
+<wire x1="2.4" y1="-1.7" x2="-2.4" y2="-1.7" width="0.12" layer="51"/>
+<wire x1="-2.4" y1="-1.7" x2="-2.4" y2="1.7" width="0.12" layer="51"/>
+<wire x1="-2.4" y1="1.7" x2="2.4" y2="1.7" width="0.12" layer="51"/>
+<wire x1="2.4" y1="1.7" x2="2.4" y2="-1.7" width="0.12" layer="51"/>
+<smd name="1" x="-2.0086" y="0" dx="1.7931" dy="2.1291" layer="1"/>
+<smd name="2" x="2.0086" y="0" dx="1.7931" dy="2.1291" layer="1"/>
+<text x="0" y="2.335" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.335" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="INDM5450X580" urn="urn:adsk.eagle:footprint:16378446/1" library_version="5">
+<description>Molded Body, 5.40 X 5.00 X 5.80 mm body
+&lt;p&gt;Molded Body package with body size 5.40 X 5.00 X 5.80 mm&lt;/p&gt;</description>
+<wire x1="-2.75" y1="2.65" x2="2.75" y2="2.65" width="0.12" layer="21"/>
+<wire x1="-2.75" y1="-2.65" x2="2.75" y2="-2.65" width="0.12" layer="21"/>
+<wire x1="2.75" y1="-2.65" x2="-2.75" y2="-2.65" width="0.12" layer="51"/>
+<wire x1="-2.75" y1="-2.65" x2="-2.75" y2="2.65" width="0.12" layer="51"/>
+<wire x1="-2.75" y1="2.65" x2="2.75" y2="2.65" width="0.12" layer="51"/>
+<wire x1="2.75" y1="2.65" x2="2.75" y2="-2.65" width="0.12" layer="51"/>
+<smd name="1" x="-2.4383" y="0" dx="1.6525" dy="4.1153" layer="1"/>
+<smd name="2" x="2.4383" y="0" dx="1.6525" dy="4.1153" layer="1"/>
+<text x="0" y="3.285" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.285" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="INDM8530X267" urn="urn:adsk.eagle:footprint:16378454/1" library_version="5">
+<description>Molded Body, 8.51 X 3.05 X 2.67 mm body
+&lt;p&gt;Molded Body package with body size 8.51 X 3.05 X 2.67 mm&lt;/p&gt;</description>
+<wire x1="-4.38" y1="1.59" x2="4.38" y2="1.59" width="0.12" layer="21"/>
+<wire x1="-4.38" y1="-1.59" x2="4.38" y2="-1.59" width="0.12" layer="21"/>
+<wire x1="4.38" y1="-1.59" x2="-4.38" y2="-1.59" width="0.12" layer="51"/>
+<wire x1="-4.38" y1="-1.59" x2="-4.38" y2="1.59" width="0.12" layer="51"/>
+<wire x1="-4.38" y1="1.59" x2="4.38" y2="1.59" width="0.12" layer="51"/>
+<wire x1="4.38" y1="1.59" x2="4.38" y2="-1.59" width="0.12" layer="51"/>
+<smd name="1" x="-3.734" y="0" dx="2.3041" dy="1.4202" layer="1"/>
+<smd name="2" x="3.734" y="0" dx="2.3041" dy="1.4202" layer="1"/>
+<text x="0" y="2.225" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.225" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="INDRD2743W50D3810H2616B" urn="urn:adsk.eagle:footprint:16378442/1" library_version="5">
+<description>Radial Non-Polarized Inductor, 27.43 mm pitch, 38.10 mm body diameter, 26.16 mm body height
+&lt;p&gt;Radial Non-Polarized Inductor package with 27.43 mm pitch (lead spacing), 0.51 mm lead diameter, 38.10 mm body diameter and 26.16 mm body height&lt;/p&gt;</description>
+<circle x="0" y="0" radius="19.05" width="0.12" layer="21"/>
+<circle x="0" y="0" radius="19.05" width="0.12" layer="51"/>
+<pad name="1" x="-13.716" y="0" drill="0.708" diameter="1.308"/>
+<pad name="2" x="13.716" y="0" drill="0.708" diameter="1.308"/>
+<text x="0" y="19.685" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-19.685" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOIC127P599X175-8N" urn="urn:adsk.eagle:package:18494142/1" type="model">
@@ -6657,6 +6854,97 @@ type 0309, grid 2.5 mm</description>
 &lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 4.91 X 3.90 X 1.75 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SOIC127P599X175-8N"/>
+</packageinstances>
+</package3d>
+<package3d name="INDC1006X60N" urn="urn:adsk.eagle:package:16378468/1" type="model" library_version="5">
+<description>Chip, 1.00 X 0.60 X 0.60 mm body
+&lt;p&gt;Chip package with body size 1.00 X 0.60 X 0.60 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="INDC1006X60N"/>
+</packageinstances>
+</package3d>
+<package3d name="INDC1608X95N" urn="urn:adsk.eagle:package:16378473/1" type="model" library_version="5">
+<description>Chip, 1.60 X 0.80 X 0.95 mm body
+&lt;p&gt;Chip package with body size 1.60 X 0.80 X 0.95 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="INDC1608X95N"/>
+</packageinstances>
+</package3d>
+<package3d name="INDC2009X120" urn="urn:adsk.eagle:package:16378480/1" type="model" library_version="5">
+<description>Chip, 2.00 X 0.90 X 1.20 mm body
+&lt;p&gt;Chip package with body size 2.00 X 0.90 X 1.20 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="INDC2009X120"/>
+</packageinstances>
+</package3d>
+<package3d name="INDC2520X120N" urn="urn:adsk.eagle:package:16378469/1" type="model" library_version="5">
+<description>Chip, 2.50 X 2.00 X 1.20 mm body
+&lt;p&gt;Chip package with body size 2.50 X 2.00 X 1.20 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="INDC2520X120N"/>
+</packageinstances>
+</package3d>
+<package3d name="INDC3216X190" urn="urn:adsk.eagle:package:16378477/1" type="model" library_version="5">
+<description>Chip, 3.20 X 1.60 X 1.90 mm body
+&lt;p&gt;Chip package with body size 3.20 X 1.60 X 1.90 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="INDC3216X190"/>
+</packageinstances>
+</package3d>
+<package3d name="INDC4509X190" urn="urn:adsk.eagle:package:16378476/1" type="model" library_version="5">
+<description>Chip, 4.50 X 0.90 X 1.90 mm body
+&lt;p&gt;Chip package with body size 4.50 X 0.90 X 1.90 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="INDC4509X190"/>
+</packageinstances>
+</package3d>
+<package3d name="INDM11072X750N" urn="urn:adsk.eagle:package:16378471/2" type="model" library_version="5">
+<description>Molded Body, 11.00 X 7.20 X 7.50 mm body
+&lt;p&gt;Molded Body package with body size 11.00 X 7.20 X 7.50 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="INDM11072X750N"/>
+</packageinstances>
+</package3d>
+<package3d name="INDM3225X240" urn="urn:adsk.eagle:package:16378472/1" type="model" library_version="5">
+<description>Molded Body, 3.20 X 2.50 X 2.40 mm body
+&lt;p&gt;Molded Body package with body size 3.20 X 2.50 X 2.40 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="INDM3225X240"/>
+</packageinstances>
+</package3d>
+<package3d name="INDM4030X267" urn="urn:adsk.eagle:package:16378478/1" type="model" library_version="5">
+<description>Molded Body, 4.07 X 3.05 X 2.67 mm body
+&lt;p&gt;Molded Body package with body size 4.07 X 3.05 X 2.67 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="INDM4030X267"/>
+</packageinstances>
+</package3d>
+<package3d name="INDM4532X340" urn="urn:adsk.eagle:package:16378474/1" type="model" library_version="5">
+<description>Molded Body, 4.50 X 3.20 X 3.40 mm body
+&lt;p&gt;Molded Body package with body size 4.50 X 3.20 X 3.40 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="INDM4532X340"/>
+</packageinstances>
+</package3d>
+<package3d name="INDM5450X580" urn="urn:adsk.eagle:package:16378479/1" type="model" library_version="5">
+<description>Molded Body, 5.40 X 5.00 X 5.80 mm body
+&lt;p&gt;Molded Body package with body size 5.40 X 5.00 X 5.80 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="INDM5450X580"/>
+</packageinstances>
+</package3d>
+<package3d name="INDM8530X267" urn="urn:adsk.eagle:package:16378475/2" type="model" library_version="5">
+<description>Molded Body, 8.51 X 3.05 X 2.67 mm body
+&lt;p&gt;Molded Body package with body size 8.51 X 3.05 X 2.67 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="INDM8530X267"/>
+</packageinstances>
+</package3d>
+<package3d name="INDRD2743W50D3810H2616B" urn="urn:adsk.eagle:package:16378465/1" type="model" library_version="5">
+<description>Radial Non-Polarized Inductor, 27.43 mm pitch, 38.10 mm body diameter, 26.16 mm body height
+&lt;p&gt;Radial Non-Polarized Inductor package with 27.43 mm pitch (lead spacing), 0.51 mm lead diameter, 38.10 mm body diameter and 26.16 mm body height&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="INDRD2743W50D3810H2616B"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -6697,6 +6985,18 @@ type 0309, grid 2.5 mm</description>
 <wire x1="12.065" y1="1.27" x2="13.335" y2="-1.27" width="0.2032" layer="94"/>
 <text x="2.8956" y="-4.9276" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
 <text x="1.8288" y="-8.0772" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="L">
+<description>INDUCTOR</description>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<text x="0" y="2.54" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-5.08" size="1.778" layer="97" align="center">&gt;SPICEMODEL</text>
+<text x="0" y="-2.54" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<text x="0" y="-7.62" size="1.778" layer="97" align="center">&gt;SPICEEXTRA</text>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -6746,6 +7046,354 @@ type 0309, grid 2.5 mm</description>
 </technologies>
 </device>
 </devices>
+</deviceset>
+<deviceset name="L" prefix="L" uservalue="yes">
+<description>&lt;B&gt;Inductor Fixed - Generic</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="CHIP-0402(1006-METRIC)" package="INDC1006X60N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378468/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Inductor" constant="no"/>
+<attribute name="CURRENT_RATING" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fixed" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CHIP-0603(1608-METRIC)" package="INDC1608X95N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378473/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Inductor" constant="no"/>
+<attribute name="CURRENT_RATING" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fixed" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CHIP-0805(2012-METRIC)" package="INDC2009X120">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378480/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Inductor" constant="no"/>
+<attribute name="CURRENT_RATING" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fixed" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CHIP-1008(2520-METRIC)" package="INDC2520X120N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378469/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Inductor" constant="no"/>
+<attribute name="CURRENT_RATING" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fixed" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CHIP-1206(3216-METRIC)" package="INDC3216X190">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378477/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Inductor" constant="no"/>
+<attribute name="CURRENT_RATING" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fixed" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CHIP(4509-METRIC)" package="INDC4509X190">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378476/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Inductor" constant="no"/>
+<attribute name="CURRENT_RATING" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fixed" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MOLDED-(11072-METRIC)" package="INDM11072X750N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378471/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Inductor" constant="no"/>
+<attribute name="CURRENT_RATING" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fixed" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MOLDED-1210(3225-METRIC)" package="INDM3225X240">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378472/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Inductor" constant="no"/>
+<attribute name="CURRENT_RATING" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fixed" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MOLDED-1612(4030-METRIC)" package="INDM4030X267">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378478/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Inductor" constant="no"/>
+<attribute name="CURRENT_RATING" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fixed" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MOLDED-1812(4532-METRIC)" package="INDM4532X340">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378474/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Inductor" constant="no"/>
+<attribute name="CURRENT_RATING" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fixed" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MOLDED(5450-METRIC)" package="INDM5450X580">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378479/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Inductor" constant="no"/>
+<attribute name="CURRENT_RATING" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fixed" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MOLDED(8530-METRIC)" package="INDM8530X267">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378475/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Inductor" constant="no"/>
+<attribute name="CURRENT_RATING" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fixed" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="RADIAL-26MM-DIA" package="INDRD2743W50D3810H2616B">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378465/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Inductor" constant="no"/>
+<attribute name="CURRENT_RATING" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fixed" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="INDM4532X32_W">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="MOLDED-1812(4532-METRIC)"/>
+</technologies>
+</device>
+</devices>
+<spice>
+<pinmapping spiceprefix="L">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
 </deviceset>
 </devicesets>
 </library>
@@ -6813,7 +7461,7 @@ type 0309, grid 2.5 mm</description>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="L6" library="MLF2012E5R6KT000" deviceset="MLF2012E5R6KT000" device="" value="18uH"/>
-<part name="L7" library="MLF2012E5R6KT000" deviceset="MLF2012E5R6KT000" device="" value="560uH"/>
+<part name="L7" library="zort2" deviceset="L" device="" technology="MOLDED-1812(4532-METRIC)" value="560uH"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="SOD-323F" package3d_urn="urn:adsk.eagle:package:6240873/1" value="MV2102"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -7164,7 +7812,7 @@ type 0309, grid 2.5 mm</description>
 <net name="N$18" class="0">
 <segment>
 <pinref part="L7" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="45.72" x2="33.02" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="45.72" x2="33.02" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R5" gate="A" pin="2"/>
 </segment>
 </net>
@@ -7195,6 +7843,12 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="8.4" severity="warning">
+Since Version 8.4, EAGLE supports properties for SPICE simulation. 
+Probes in schematics and SPICE mapping objects found in parts and library devices
+will not be understood with this version. Update EAGLE to the latest version
+for full support of SPICE simulation. 
 </note>
 </compatibility>
 </eagle>
