@@ -6673,8 +6673,8 @@ Source: http://cache.national.com/ds/LM/LM386.pdf</description>
 </package>
 <package name="TO-252">
 <smd name="1" x="-2.3114" y="-3.7973" dx="1.0922" dy="2.8956" layer="1"/>
-<smd name="2" x="2.3114" y="-3.7973" dx="1.0922" dy="2.8956" layer="1"/>
-<smd name="3" x="0" y="2.7559" dx="5.461" dy="6.0198" layer="1"/>
+<smd name="3" x="2.3114" y="-3.7973" dx="1.0922" dy="2.8956" layer="1"/>
+<smd name="2" x="0" y="2.7559" dx="5.461" dy="6.0198" layer="1"/>
 <wire x1="-1.2446" y1="-1.9558" x2="-3.3528" y2="-1.9558" width="0.1524" layer="51"/>
 <wire x1="3.3528" y1="-1.8288" x2="1.2446" y2="-1.8288" width="0.1524" layer="51"/>
 <wire x1="-3.2512" y1="-1.8288" x2="3.2512" y2="-1.8288" width="0.1524" layer="51"/>

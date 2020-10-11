@@ -9,17 +9,17 @@
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -33,9 +33,9 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -45,7 +45,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -147,7 +147,7 @@
 <wire x1="22.987" y1="40.005" x2="0" y2="40.005" width="0" layer="20"/>
 <wire x1="0" y1="40.005" x2="0" y2="0" width="0" layer="20"/>
 <text x="20.32" y="35.56" size="0.8128" layer="26" rot="MR0">9VuTX
-IO Board v1.1
+IO Board v1.1a
 K6GG</text>
 </plain>
 <libraries>
@@ -331,8 +331,8 @@ MELF 0.10 W</description>
 </package>
 <package name="TO-252">
 <smd name="1" x="-2.3114" y="-3.7973" dx="1.0922" dy="2.8956" layer="1"/>
-<smd name="2" x="2.3114" y="-3.7973" dx="1.0922" dy="2.8956" layer="1"/>
-<smd name="3" x="0" y="2.7559" dx="5.461" dy="6.0198" layer="1"/>
+<smd name="3" x="2.3114" y="-3.7973" dx="1.0922" dy="2.8956" layer="1"/>
+<smd name="2" x="0" y="2.7559" dx="5.461" dy="6.0198" layer="1"/>
 <wire x1="-1.2446" y1="-1.9558" x2="-3.3528" y2="-1.9558" width="0.1524" layer="51"/>
 <wire x1="3.3528" y1="-1.8288" x2="1.2446" y2="-1.8288" width="0.1524" layer="51"/>
 <wire x1="-3.2512" y1="-1.8288" x2="3.2512" y2="-1.8288" width="0.1524" layer="51"/>
@@ -1334,15 +1334,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="Q2" pad="2"/>
 <wire x1="13.716" y1="15.24" x2="11.518" y2="15.24" width="0.3048" layer="1"/>
 <wire x1="14.1732" y1="14.7828" x2="13.716" y2="15.24" width="0.3048" layer="1"/>
-<wire x1="18.3642" y1="14.7828" x2="15.0114" y2="14.7828" width="0.3048" layer="1"/>
-<wire x1="15.0114" y1="14.7828" x2="14.1732" y2="14.7828" width="0.3048" layer="1"/>
+<wire x1="18.3642" y1="14.7828" x2="14.1732" y2="14.7828" width="0.3048" layer="1"/>
 <wire x1="18.5166" y1="14.6304" x2="18.3642" y2="14.7828" width="0.3048" layer="1"/>
 <wire x1="18.5166" y1="14.6304" x2="18.542" y2="14.57198125" width="0.3048" layer="1"/>
-<wire x1="15.0368" y1="14.5542" x2="15.9258" y2="14.5542" width="0.3048" layer="16"/>
-<wire x1="15.0114" y1="14.5796" x2="15.0368" y2="14.5542" width="0.3048" layer="16"/>
-<wire x1="15.9258" y1="14.5542" x2="15.9766" y2="14.4907" width="0.3048" layer="16"/>
-<wire x1="15.0114" y1="14.5796" x2="15.0114" y2="14.7828" width="0.3048" layer="1"/>
-<via x="15.0114" y="14.5796" extent="1-16" drill="0.254"/>
+<wire x1="18.288" y1="17.6022" x2="18.288" y2="21.0439" width="0.3048" layer="16"/>
+<wire x1="18.288" y1="14.859" x2="18.288" y2="17.6022" width="0.3048" layer="1"/>
+<wire x1="18.288" y1="14.859" x2="18.542" y2="14.57198125" width="0.3048" layer="1"/>
+<via x="18.288" y="17.6022" extent="1-16" drill="0.254"/>
 </signal>
 <signal name="N$25" class="1">
 <contactref element="C19" pad="2"/>
