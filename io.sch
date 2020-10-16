@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6499,14 +6499,6 @@ Source: http://cache.national.com/ds/LM/LM386.pdf</description>
 <text x="-2.9972" y="-1.905" size="0.6096" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
-<package name="DS106C2">
-<smd name="P$1" x="3.97001875" y="0" dx="5.08" dy="2.54" layer="1" rot="R90"/>
-<smd name="P$2" x="-3.97001875" y="0" dx="5.08" dy="2.54" layer="1" rot="R90"/>
-<text x="-3.81" y="3.81" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.81" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-3.81" y1="3.81" x2="3.81" y2="3.81" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="-3.81" x2="3.81" y2="-3.81" width="0.127" layer="21"/>
-</package>
 <package name="9V_968">
 <pad name="P$1" x="0" y="6.35" drill="1" diameter="3.81"/>
 <pad name="P$2" x="0" y="-6.35" drill="0.9" diameter="3.81"/>
@@ -7216,16 +7208,6 @@ Source: http://cache.national.com/ds/LM/LM386.pdf</description>
 <text x="5.08" y="1.27" size="2.54" layer="95" ratio="10" rot="SR0">&gt;Name</text>
 <text x="5.08" y="-3.81" size="2.54" layer="96" ratio="10" rot="SR0">&gt;Value</text>
 </symbol>
-<symbol name="MLF2012E5R6KT000">
-<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94" curve="-191.421"/>
-<wire x1="-1.27" y1="0" x2="0" y2="0" width="0.1524" layer="94" curve="-191.421"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.1524" layer="94" curve="-191.421"/>
-<wire x1="0" y1="0" x2="1.27" y2="0" width="0.1524" layer="94" curve="-191.421"/>
-<text x="-5.08846875" y="1.90818125" size="1.780959375" layer="95">&gt;NAME</text>
-<text x="-5.085440625" y="-2.54271875" size="1.779909375" layer="96">&gt;VALUE</text>
-<pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="1" x="-7.62" y="0" visible="pad" length="middle" direction="pas"/>
-</symbol>
 <symbol name="9V_968">
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
@@ -7356,24 +7338,6 @@ Source: http://cache.national.com/ds/LM/LM386.pdf</description>
 <connect gate="A" pin="1" pad="1"/>
 <connect gate="A" pin="2" pad="2"/>
 <connect gate="A" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="B966AS-160M-P3">
-<description>16uH inductor
-https://www.digikey.com/product-detail/en/murata-electronics/B966AS-160M-P3/490-14125-1-ND/6205850</description>
-<gates>
-<gate name="G$1" symbol="MLF2012E5R6KT000" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DS106C2">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8640,6 +8604,64 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 </deviceset>
 </devicesets>
 </library>
+<library name="LQW18AN16NG8ZD">
+<packages>
+<package name="INDC1609X100N">
+<text x="-1.49" y="-0.9" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-1.49" y="0.9" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="0.88" y1="-0.55" x2="-0.88" y2="-0.55" width="0.127" layer="51"/>
+<wire x1="0.88" y1="0.55" x2="-0.88" y2="0.55" width="0.127" layer="51"/>
+<wire x1="0.88" y1="-0.55" x2="0.88" y2="0.55" width="0.127" layer="51"/>
+<wire x1="-0.88" y1="-0.55" x2="-0.88" y2="0.55" width="0.127" layer="51"/>
+<wire x1="-0.15" y1="0.55" x2="0.15" y2="0.55" width="0.127" layer="21"/>
+<wire x1="-0.15" y1="-0.55" x2="0.15" y2="-0.55" width="0.127" layer="21"/>
+<wire x1="-1.49" y1="-0.81" x2="1.49" y2="-0.81" width="0.05" layer="39"/>
+<wire x1="-1.49" y1="0.81" x2="1.49" y2="0.81" width="0.05" layer="39"/>
+<wire x1="-1.49" y1="-0.81" x2="-1.49" y2="0.81" width="0.05" layer="39"/>
+<wire x1="1.49" y1="-0.81" x2="1.49" y2="0.81" width="0.05" layer="39"/>
+<smd name="1" x="-0.855" y="0" dx="0.77" dy="1.12" layer="1"/>
+<smd name="2" x="0.855" y="0" dx="0.77" dy="1.12" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LQW18AN16NG8ZD">
+<text x="-7.62" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LQW18AN16NG8ZD" prefix="L">
+<description>FIXED IND 16NH 1.4A 75 MOHM </description>
+<gates>
+<gate name="G$1" symbol="LQW18AN16NG8ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1609X100N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" Inductor with Inductance: 16nH Tol. +/-2%, Package: 0603 (1608) "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-15650-1-ND"/>
+<attribute name="MF" value="Murata"/>
+<attribute name="MP" value="LQW18AN16NG8ZD"/>
+<attribute name="PACKAGE" value="1609 Murata"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/LQW18AN16NG8ZD/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8697,7 +8719,7 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-2X4" device="" package3d_urn="urn:adsk.eagle:package:6240893/1"/>
 <part name="L5" library="Inductor" library_urn="urn:adsk.eagle:library:16378440" deviceset="L" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16378480/1" technology="_" value="1.2uH"/>
-<part name="L4" library="zort2" deviceset="B966AS-160M-P3" device="" value="16uH"/>
+<part name="L4" library="LQW18AN16NG8ZD" deviceset="LQW18AN16NG8ZD" device="" value="16uH"/>
 <part name="Q1" library="zort2" deviceset="MMBT2222A-7-F" device="SOT-23_DIO-M" value="MMBT2222A"/>
 <part name="U$1" library="zort2" deviceset="9V_968" device="9V_968_SMD"/>
 <part name="Q2" library="zort2" deviceset="2SCR574D3TL1" device="TRANS_2SCR573_TO-252"/>
