@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7481,7 +7481,7 @@ type 0309, grid 2.5 mm</description>
 <wire x1="-78.74" y1="5.08" x2="182.88" y2="5.08" width="0.1524" layer="97"/>
 <wire x1="182.88" y1="5.08" x2="182.88" y2="127" width="0.1524" layer="97"/>
 <wire x1="182.88" y1="127" x2="-78.74" y2="127" width="0.1524" layer="97"/>
-<text x="-76.2" y="119.38" size="5.08" layer="97">Mixer</text>
+<text x="-76.2" y="119.38" size="5.08" layer="97">Mixer Board</text>
 </plain>
 <instances>
 <instance part="L1" gate="G$1" x="33.02" y="88.9" smashed="yes" rot="R90">

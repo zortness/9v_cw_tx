@@ -6563,102 +6563,6 @@ Source: http://cache.national.com/ds/LM/LM386.pdf</description>
 <text x="-2.9972" y="-1.905" size="0.6096" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
-<package name="SOT-23_DIO">
-<smd name="1" x="-1.025" y="-0.945" dx="0.8128" dy="0.889" layer="1"/>
-<smd name="2" x="1.025" y="-0.945" dx="0.8128" dy="0.889" layer="1"/>
-<smd name="3" x="0" y="0.945" dx="0.8128" dy="0.889" layer="1"/>
-<wire x1="-0.762" y1="-0.7112" x2="-1.27" y2="-0.7112" width="0.1524" layer="51"/>
-<wire x1="-1.27" y1="-0.7112" x2="-1.27" y2="-1.2446" width="0.1524" layer="51"/>
-<wire x1="-1.27" y1="-1.2446" x2="-0.762" y2="-1.2446" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="-1.2446" x2="-0.762" y2="-0.7112" width="0.1524" layer="51"/>
-<wire x1="1.27" y1="-0.7112" x2="0.762" y2="-0.7112" width="0.1524" layer="51"/>
-<wire x1="0.762" y1="-0.7112" x2="0.762" y2="-1.2446" width="0.1524" layer="51"/>
-<wire x1="0.762" y1="-1.2446" x2="1.27" y2="-1.2446" width="0.1524" layer="51"/>
-<wire x1="1.27" y1="-1.2446" x2="1.27" y2="-0.7112" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="0.7112" x2="0.254" y2="0.7112" width="0.1524" layer="51"/>
-<wire x1="0.254" y1="0.7112" x2="0.254" y2="1.2446" width="0.1524" layer="51"/>
-<wire x1="0.254" y1="1.2446" x2="-0.254" y2="1.2446" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="1.2446" x2="-0.254" y2="0.7112" width="0.1524" layer="51"/>
-<wire x1="-1.524" y1="-0.7112" x2="1.524" y2="-0.7112" width="0.1524" layer="51"/>
-<wire x1="1.524" y1="-0.7112" x2="1.524" y2="0.7112" width="0.1524" layer="51"/>
-<wire x1="1.524" y1="0.7112" x2="-1.524" y2="0.7112" width="0.1524" layer="51"/>
-<wire x1="-1.524" y1="0.7112" x2="-1.524" y2="-0.7112" width="0.1524" layer="51"/>
-<wire x1="-1.143" y1="-0.4572" x2="-1.397" y2="-0.4572" width="0" layer="51" curve="-180"/>
-<wire x1="-1.397" y1="-0.4572" x2="-1.143" y2="-0.4572" width="0" layer="51" curve="-180"/>
-<wire x1="-0.4064" y1="-0.8382" x2="0.4064" y2="-0.8382" width="0.1524" layer="21"/>
-<wire x1="1.651" y1="-0.8382" x2="1.651" y2="0.8382" width="0.1524" layer="21"/>
-<wire x1="1.651" y1="0.8382" x2="0.6096" y2="0.8382" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="0.8382" x2="-1.651" y2="-0.8382" width="0.1524" layer="21"/>
-<wire x1="-0.6096" y1="0.8382" x2="-1.651" y2="0.8382" width="0.1524" layer="21"/>
-<wire x1="-2.667" y1="-1.2446" x2="-2.921" y2="-1.2446" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-2.921" y1="-1.2446" x2="-2.667" y2="-1.2446" width="0.1524" layer="21" curve="-180"/>
-<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-</package>
-<package name="SOT-23_DIO-M">
-<smd name="1" x="-1.025" y="-0.9958" dx="0.6116" dy="1.626" layer="1"/>
-<smd name="2" x="1.025" y="-0.9958" dx="0.6116" dy="1.626" layer="1"/>
-<smd name="3" x="0" y="0.9958" dx="0.6116" dy="1.626" layer="1"/>
-<wire x1="-0.762" y1="-0.6604" x2="-1.27" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.27" y1="-0.6604" x2="-1.27" y2="-1.2446" width="0.1524" layer="51"/>
-<wire x1="-1.27" y1="-1.2446" x2="-0.762" y2="-1.2446" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="-1.2446" x2="-0.762" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.27" y1="-0.6604" x2="0.762" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="0.762" y1="-0.6604" x2="0.762" y2="-1.2446" width="0.1524" layer="51"/>
-<wire x1="0.762" y1="-1.2446" x2="1.27" y2="-1.2446" width="0.1524" layer="51"/>
-<wire x1="1.27" y1="-1.2446" x2="1.27" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="0.6604" x2="0.254" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="0.254" y1="0.6604" x2="0.254" y2="1.2446" width="0.1524" layer="51"/>
-<wire x1="0.254" y1="1.2446" x2="-0.254" y2="1.2446" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="1.2446" x2="-0.254" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4478" y1="-0.6604" x2="1.4478" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4478" y1="-0.6604" x2="1.4478" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4478" y1="0.6604" x2="-1.4478" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4478" y1="0.6604" x2="-1.4478" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.0668" y1="-0.4064" x2="-1.3208" y2="-0.4064" width="0" layer="51" curve="-180"/>
-<wire x1="-1.3208" y1="-0.4064" x2="-1.0668" y2="-0.4064" width="0" layer="51" curve="-180"/>
-<wire x1="-0.381" y1="-0.7874" x2="0.381" y2="-0.7874" width="0.1524" layer="21"/>
-<wire x1="1.5748" y1="0.0508" x2="1.5748" y2="0.7874" width="0.1524" layer="21"/>
-<wire x1="1.5748" y1="0.7874" x2="0.635" y2="0.7874" width="0.1524" layer="21"/>
-<wire x1="-1.5748" y1="0.7874" x2="-1.5748" y2="0.0508" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="0.7874" x2="-1.5748" y2="0.7874" width="0.1524" layer="21"/>
-<wire x1="-2.5908" y1="-1.2446" x2="-2.8448" y2="-1.2446" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-2.8448" y1="-1.2446" x2="-2.5908" y2="-1.2446" width="0.1524" layer="21" curve="-180"/>
-<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-</package>
-<package name="SOT-23_DIO-L">
-<smd name="1" x="-1.025" y="-0.8942" dx="0.51" dy="1.0164" layer="1"/>
-<smd name="2" x="1.025" y="-0.8942" dx="0.51" dy="1.0164" layer="1"/>
-<smd name="3" x="0" y="0.8942" dx="0.51" dy="1.0164" layer="1"/>
-<wire x1="-0.762" y1="-0.6604" x2="-1.27" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.27" y1="-0.6604" x2="-1.27" y2="-1.2446" width="0.1524" layer="51"/>
-<wire x1="-1.27" y1="-1.2446" x2="-0.762" y2="-1.2446" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="-1.2446" x2="-0.762" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.27" y1="-0.6604" x2="0.762" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="0.762" y1="-0.6604" x2="0.762" y2="-1.2446" width="0.1524" layer="51"/>
-<wire x1="0.762" y1="-1.2446" x2="1.27" y2="-1.2446" width="0.1524" layer="51"/>
-<wire x1="1.27" y1="-1.2446" x2="1.27" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="0.6604" x2="0.254" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="0.254" y1="0.6604" x2="0.254" y2="1.2446" width="0.1524" layer="51"/>
-<wire x1="0.254" y1="1.2446" x2="-0.254" y2="1.2446" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="1.2446" x2="-0.254" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4478" y1="-0.6604" x2="1.4478" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4478" y1="-0.6604" x2="1.4478" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4478" y1="0.6604" x2="-1.4478" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4478" y1="0.6604" x2="-1.4478" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.0668" y1="-0.4064" x2="-1.3208" y2="-0.4064" width="0" layer="51" curve="-180"/>
-<wire x1="-1.3208" y1="-0.4064" x2="-1.0668" y2="-0.4064" width="0" layer="51" curve="-180"/>
-<wire x1="-0.4318" y1="-0.7874" x2="0.4318" y2="-0.7874" width="0.1524" layer="21"/>
-<wire x1="1.5748" y1="-0.2286" x2="1.5748" y2="0.7874" width="0.1524" layer="21"/>
-<wire x1="1.5748" y1="0.7874" x2="0.5842" y2="0.7874" width="0.1524" layer="21"/>
-<wire x1="-1.5748" y1="0.7874" x2="-1.5748" y2="-0.2286" width="0.1524" layer="21"/>
-<wire x1="-0.5842" y1="0.7874" x2="-1.5748" y2="0.7874" width="0.1524" layer="21"/>
-<wire x1="-2.5908" y1="-1.2446" x2="-2.8448" y2="-1.2446" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-2.8448" y1="-1.2446" x2="-2.5908" y2="-1.2446" width="0.1524" layer="21" curve="-180"/>
-<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-</package>
 <package name="9V_968_PAD">
 <smd name="P$1" x="0" y="6.35" dx="2.54" dy="2.54" layer="1"/>
 <smd name="P$2" x="0" y="-6.35" dx="2.54" dy="2.54" layer="1"/>
@@ -7074,6 +6978,102 @@ Source: http://cache.national.com/ds/LM/LM386.pdf</description>
 <vertex x="1.016" y="-1.0652"/>
 </polygon>
 </package>
+<package name="SOT-23_DIO">
+<smd name="1" x="-1.025" y="-0.945" dx="0.8128" dy="0.889" layer="1"/>
+<smd name="2" x="1.025" y="-0.945" dx="0.8128" dy="0.889" layer="1"/>
+<smd name="3" x="0" y="0.945" dx="0.8128" dy="0.889" layer="1"/>
+<wire x1="-0.762" y1="-0.7112" x2="-1.27" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="-1.27" y1="-0.7112" x2="-1.27" y2="-1.2446" width="0.1524" layer="51"/>
+<wire x1="-1.27" y1="-1.2446" x2="-0.762" y2="-1.2446" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="-1.2446" x2="-0.762" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="1.27" y1="-0.7112" x2="0.762" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="0.762" y1="-0.7112" x2="0.762" y2="-1.2446" width="0.1524" layer="51"/>
+<wire x1="0.762" y1="-1.2446" x2="1.27" y2="-1.2446" width="0.1524" layer="51"/>
+<wire x1="1.27" y1="-1.2446" x2="1.27" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="0.7112" x2="0.254" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="0.254" y1="0.7112" x2="0.254" y2="1.2446" width="0.1524" layer="51"/>
+<wire x1="0.254" y1="1.2446" x2="-0.254" y2="1.2446" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="1.2446" x2="-0.254" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="-1.524" y1="-0.7112" x2="1.524" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="1.524" y1="-0.7112" x2="1.524" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="1.524" y1="0.7112" x2="-1.524" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="-1.524" y1="0.7112" x2="-1.524" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="-1.143" y1="-0.4572" x2="-1.397" y2="-0.4572" width="0" layer="51" curve="-180"/>
+<wire x1="-1.397" y1="-0.4572" x2="-1.143" y2="-0.4572" width="0" layer="51" curve="-180"/>
+<wire x1="-0.4064" y1="-0.8382" x2="0.4064" y2="-0.8382" width="0.1524" layer="21"/>
+<wire x1="1.651" y1="-0.8382" x2="1.651" y2="0.8382" width="0.1524" layer="21"/>
+<wire x1="1.651" y1="0.8382" x2="0.6096" y2="0.8382" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="0.8382" x2="-1.651" y2="-0.8382" width="0.1524" layer="21"/>
+<wire x1="-0.6096" y1="0.8382" x2="-1.651" y2="0.8382" width="0.1524" layer="21"/>
+<wire x1="-2.667" y1="-1.2446" x2="-2.921" y2="-1.2446" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-2.921" y1="-1.2446" x2="-2.667" y2="-1.2446" width="0.1524" layer="21" curve="-180"/>
+<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="SOT-23_DIO-M">
+<smd name="1" x="-1.025" y="-0.9958" dx="0.6116" dy="1.626" layer="1"/>
+<smd name="2" x="1.025" y="-0.9958" dx="0.6116" dy="1.626" layer="1"/>
+<smd name="3" x="0" y="0.9958" dx="0.6116" dy="1.626" layer="1"/>
+<wire x1="-0.762" y1="-0.6604" x2="-1.27" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.27" y1="-0.6604" x2="-1.27" y2="-1.2446" width="0.1524" layer="51"/>
+<wire x1="-1.27" y1="-1.2446" x2="-0.762" y2="-1.2446" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="-1.2446" x2="-0.762" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.27" y1="-0.6604" x2="0.762" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="0.762" y1="-0.6604" x2="0.762" y2="-1.2446" width="0.1524" layer="51"/>
+<wire x1="0.762" y1="-1.2446" x2="1.27" y2="-1.2446" width="0.1524" layer="51"/>
+<wire x1="1.27" y1="-1.2446" x2="1.27" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="0.6604" x2="0.254" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="0.254" y1="0.6604" x2="0.254" y2="1.2446" width="0.1524" layer="51"/>
+<wire x1="0.254" y1="1.2446" x2="-0.254" y2="1.2446" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="1.2446" x2="-0.254" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4478" y1="-0.6604" x2="1.4478" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4478" y1="-0.6604" x2="1.4478" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4478" y1="0.6604" x2="-1.4478" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4478" y1="0.6604" x2="-1.4478" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.0668" y1="-0.4064" x2="-1.3208" y2="-0.4064" width="0" layer="51" curve="-180"/>
+<wire x1="-1.3208" y1="-0.4064" x2="-1.0668" y2="-0.4064" width="0" layer="51" curve="-180"/>
+<wire x1="-0.381" y1="-0.7874" x2="0.381" y2="-0.7874" width="0.1524" layer="21"/>
+<wire x1="1.5748" y1="0.0508" x2="1.5748" y2="0.7874" width="0.1524" layer="21"/>
+<wire x1="1.5748" y1="0.7874" x2="0.635" y2="0.7874" width="0.1524" layer="21"/>
+<wire x1="-1.5748" y1="0.7874" x2="-1.5748" y2="0.0508" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="0.7874" x2="-1.5748" y2="0.7874" width="0.1524" layer="21"/>
+<wire x1="-2.5908" y1="-1.2446" x2="-2.8448" y2="-1.2446" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-2.8448" y1="-1.2446" x2="-2.5908" y2="-1.2446" width="0.1524" layer="21" curve="-180"/>
+<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="SOT-23_DIO-L">
+<smd name="1" x="-1.025" y="-0.8942" dx="0.51" dy="1.0164" layer="1"/>
+<smd name="2" x="1.025" y="-0.8942" dx="0.51" dy="1.0164" layer="1"/>
+<smd name="3" x="0" y="0.8942" dx="0.51" dy="1.0164" layer="1"/>
+<wire x1="-0.762" y1="-0.6604" x2="-1.27" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.27" y1="-0.6604" x2="-1.27" y2="-1.2446" width="0.1524" layer="51"/>
+<wire x1="-1.27" y1="-1.2446" x2="-0.762" y2="-1.2446" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="-1.2446" x2="-0.762" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.27" y1="-0.6604" x2="0.762" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="0.762" y1="-0.6604" x2="0.762" y2="-1.2446" width="0.1524" layer="51"/>
+<wire x1="0.762" y1="-1.2446" x2="1.27" y2="-1.2446" width="0.1524" layer="51"/>
+<wire x1="1.27" y1="-1.2446" x2="1.27" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="0.6604" x2="0.254" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="0.254" y1="0.6604" x2="0.254" y2="1.2446" width="0.1524" layer="51"/>
+<wire x1="0.254" y1="1.2446" x2="-0.254" y2="1.2446" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="1.2446" x2="-0.254" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4478" y1="-0.6604" x2="1.4478" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4478" y1="-0.6604" x2="1.4478" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4478" y1="0.6604" x2="-1.4478" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4478" y1="0.6604" x2="-1.4478" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.0668" y1="-0.4064" x2="-1.3208" y2="-0.4064" width="0" layer="51" curve="-180"/>
+<wire x1="-1.3208" y1="-0.4064" x2="-1.0668" y2="-0.4064" width="0" layer="51" curve="-180"/>
+<wire x1="-0.4318" y1="-0.7874" x2="0.4318" y2="-0.7874" width="0.1524" layer="21"/>
+<wire x1="1.5748" y1="-0.2286" x2="1.5748" y2="0.7874" width="0.1524" layer="21"/>
+<wire x1="1.5748" y1="0.7874" x2="0.5842" y2="0.7874" width="0.1524" layer="21"/>
+<wire x1="-1.5748" y1="0.7874" x2="-1.5748" y2="-0.2286" width="0.1524" layer="21"/>
+<wire x1="-0.5842" y1="0.7874" x2="-1.5748" y2="0.7874" width="0.1524" layer="21"/>
+<wire x1="-2.5908" y1="-1.2446" x2="-2.8448" y2="-1.2446" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-2.8448" y1="-1.2446" x2="-2.5908" y2="-1.2446" width="0.1524" layer="21" curve="-180"/>
+<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="INDC1006X60N" urn="urn:adsk.eagle:package:16378468/1" type="model" library_version="5">
@@ -7233,17 +7233,6 @@ Source: http://cache.national.com/ds/LM/LM386.pdf</description>
 <pin name="P$1" x="12.7" y="5.08" length="middle" rot="R180"/>
 <pin name="P$2" x="12.7" y="-7.62" length="middle" rot="R180"/>
 </symbol>
-<symbol name="MMBT2222A-7-F">
-<pin name="B" x="2.54" y="0" length="middle" direction="pas"/>
-<pin name="E" x="43.18" y="-2.54" length="middle" direction="pas" rot="R180"/>
-<pin name="C" x="43.18" y="0" length="middle" direction="pas" rot="R180"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="38.1" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="38.1" y1="-7.62" x2="38.1" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="38.1" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
-<text x="18.1356" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<text x="17.5006" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
-</symbol>
 <symbol name="L">
 <description>INDUCTOR</description>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
@@ -7368,58 +7357,6 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MMBT2222A-7-F" prefix="U">
-<gates>
-<gate name="A" symbol="MMBT2222A-7-F" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT-23_DIO">
-<connects>
-<connect gate="A" pin="B" pad="1"/>
-<connect gate="A" pin="C" pad="3"/>
-<connect gate="A" pin="E" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MMBT2222A-7-F" constant="no"/>
-<attribute name="SOURCELIBRARY" value="DIODESINC_2_2015-08-18" constant="no"/>
-<attribute name="VENDOR" value="Diodes Inc" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="SOT-23_DIO-M" package="SOT-23_DIO-M">
-<connects>
-<connect gate="A" pin="B" pad="1"/>
-<connect gate="A" pin="C" pad="3"/>
-<connect gate="A" pin="E" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MMBT2222A-7-F" constant="no"/>
-<attribute name="SOURCELIBRARY" value="DIODESINC_2_2015-08-18" constant="no"/>
-<attribute name="VENDOR" value="Diodes Inc" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="SOT-23_DIO-L" package="SOT-23_DIO-L">
-<connects>
-<connect gate="A" pin="B" pad="1"/>
-<connect gate="A" pin="C" pad="3"/>
-<connect gate="A" pin="E" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MMBT2222A-7-F" constant="no"/>
-<attribute name="SOURCELIBRARY" value="DIODESINC_2_2015-08-18" constant="no"/>
-<attribute name="VENDOR" value="Diodes Inc" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -7813,6 +7750,58 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 </package3dinstances>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MMBT2222A-7-F" prefix="U">
+<gates>
+<gate name="G$1" symbol="TRANS_NPN" x="17.78" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SOT-23_DIO">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="3" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MMBT2222A-7-F" constant="no"/>
+<attribute name="SOURCELIBRARY" value="DIODESINC_2_2015-08-18" constant="no"/>
+<attribute name="VENDOR" value="Diodes Inc" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SOT-23_DIO-M" package="SOT-23_DIO-M">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="3" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MMBT2222A-7-F" constant="no"/>
+<attribute name="SOURCELIBRARY" value="DIODESINC_2_2015-08-18" constant="no"/>
+<attribute name="VENDOR" value="Diodes Inc" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SOT-23_DIO-L" package="SOT-23_DIO-L">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="3" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MMBT2222A-7-F" constant="no"/>
+<attribute name="SOURCELIBRARY" value="DIODESINC_2_2015-08-18" constant="no"/>
+<attribute name="VENDOR" value="Diodes Inc" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -8720,12 +8709,12 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 <part name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-2X4" device="" package3d_urn="urn:adsk.eagle:package:6240893/1"/>
 <part name="L5" library="Inductor" library_urn="urn:adsk.eagle:library:16378440" deviceset="L" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16378480/1" technology="_" value="1.2uH"/>
 <part name="L4" library="LQW18AN16NG8ZD" deviceset="LQW18AN16NG8ZD" device="" value="16uH"/>
-<part name="Q1" library="zort2" deviceset="MMBT2222A-7-F" device="SOT-23_DIO-M" value="MMBT2222A"/>
 <part name="U$1" library="zort2" deviceset="9V_968" device="9V_968_SMD"/>
 <part name="Q2" library="zort2" deviceset="2SCR574D3TL1" device="TRANS_2SCR573_TO-252"/>
 <part name="L2" library="zort2" deviceset="L" device="CHIP-1008(2520-METRIC)" package3d_urn="urn:adsk.eagle:package:16378469/1" technology="_" value="470uH"/>
 <part name="J1" library="SJ-3523-SMT-TR" deviceset="SJ-3523-SMT-TR" device=""/>
 <part name="X1" library="zort2" deviceset="SMACONNECTOR" device="_EDGE" package3d_urn="urn:adsk.eagle:package:6240945/1"/>
+<part name="Q1" library="zort2" deviceset="MMBT2222A-7-F" device="SOT-23_DIO-M"/>
 </parts>
 <sheets>
 <sheet>
@@ -8744,6 +8733,7 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 <wire x1="-96.52" y1="45.72" x2="50.8" y2="45.72" width="0.1524" layer="97"/>
 <wire x1="50.8" y1="45.72" x2="50.8" y2="121.92" width="0.1524" layer="97"/>
 <wire x1="50.8" y1="121.92" x2="-96.52" y2="121.92" width="0.1524" layer="97"/>
+<text x="-93.98" y="124.46" size="6.4516" layer="97">I/O Board</text>
 </plain>
 <instances>
 <instance part="C22" gate="G$1" x="-40.64" y="86.36" smashed="yes">
@@ -8912,14 +8902,10 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 <attribute name="NAME" x="41.27181875" y="12.69153125" size="1.780959375" layer="95" rot="R90"/>
 <attribute name="VALUE" x="45.72271875" y="12.694559375" size="1.779909375" layer="96" rot="R90"/>
 </instance>
-<instance part="Q1" gate="A" x="-60.96" y="-20.32" smashed="yes">
-<attribute name="NAME" x="-50.4444" y="-13.7414" size="2.0828" layer="95" ratio="6" rot="SR0"/>
-<attribute name="VALUE" x="-51.0794" y="-26.4414" size="2.0828" layer="96" ratio="6" rot="SR0"/>
-</instance>
 <instance part="U$1" gate="G$1" x="-78.74" y="88.9" smashed="yes"/>
 <instance part="Q2" gate="A" x="40.64" y="0" smashed="yes">
-<attribute name="NAME" x="45.72" y="1.27" size="2.54" layer="95" ratio="10" rot="SR0"/>
-<attribute name="VALUE" x="45.72" y="-3.81" size="2.54" layer="96" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="35.56" y="6.35" size="2.54" layer="95" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="45.72" y="-3.81" size="0.8128" layer="96" ratio="10" rot="SR0"/>
 </instance>
 <instance part="L2" gate="G$1" x="25.4" y="-15.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="22.86" y="-15.24" size="1.778" layer="95" rot="R90" align="center"/>
@@ -8931,6 +8917,10 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 <instance part="X1" gate="G$1" x="162.56" y="10.16" smashed="yes">
 <attribute name="NAME" x="170.18" y="12.7" size="1.27" layer="95"/>
 <attribute name="VALUE" x="170.18" y="10.16" size="1.27" layer="95"/>
+</instance>
+<instance part="Q1" gate="G$1" x="-48.26" y="-20.32" smashed="yes">
+<attribute name="NAME" x="-48.26" y="-13.97" size="2.54" layer="95" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="-53.34" y="-26.67" size="0.8128" layer="96" ratio="10" rot="SR0"/>
 </instance>
 </instances>
 <busses>
@@ -9217,33 +9207,35 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 <wire x1="-73.66" y1="12.7" x2="-73.66" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="-20.32" x2="-63.5" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="-63.5" y1="-20.32" x2="-58.42" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="-20.32" x2="-53.34" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="-63.5" y="-20.32"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="-63.5" y1="-20.32" x2="-63.5" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="A" pin="B"/>
+<pinref part="Q1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="-17.78" y1="-22.86" x2="-17.78" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="-17.78" y="-30.48"/>
 <wire x1="-17.78" y1="-30.48" x2="-17.78" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="-30.48" x2="-2.54" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="-2.54" y1="-30.48" x2="-2.54" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="A" pin="E"/>
+<pinref part="Q1" gate="G$1" pin="3"/>
+<wire x1="-45.72" y1="-25.4" x2="-17.78" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="-25.4" x2="-17.78" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="L3" gate="G$1" pin="1"/>
-<wire x1="-17.78" y1="-20.32" x2="-17.78" y2="0" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="-15.24" x2="-17.78" y2="0" width="0.1524" layer="91"/>
 <pinref part="C18" gate="G$1" pin="1"/>
 <wire x1="-17.78" y1="0" x2="-5.08" y2="0" width="0.1524" layer="91"/>
 <junction x="-17.78" y="0"/>
-<pinref part="Q1" gate="A" pin="C"/>
+<pinref part="Q1" gate="G$1" pin="2"/>
+<wire x1="-45.72" y1="-15.24" x2="-17.78" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
