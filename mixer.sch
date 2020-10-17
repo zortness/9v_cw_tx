@@ -7466,8 +7466,8 @@ type 0309, grid 2.5 mm</description>
 <part name="D3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="SOD-323F" package3d_urn="urn:adsk.eagle:package:6240873/1" value="MV2102"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-2X4" device="" package3d_urn="urn:adsk.eagle:package:6240893/1"/>
-<part name="R4" library="zort2" deviceset="3362W-1-102LF" device="" value="1k"/>
-<part name="R5" library="zort2" deviceset="3362W-1-102LF" device="" value="25K"/>
+<part name="R1" library="zort2" deviceset="3362W-1-102LF" device="" value="1k"/>
+<part name="R2" library="zort2" deviceset="3362W-1-102LF" device="" value="25K"/>
 <part name="CRYSTAL" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:6240710/1"/>
 </parts>
 <sheets>
@@ -7574,11 +7574,11 @@ type 0309, grid 2.5 mm</description>
 <attribute name="NAME" x="-44.45" y="26.035" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-44.45" y="10.16" size="1.778" layer="96"/>
 </instance>
-<instance part="R4" gate="A" x="-10.16" y="99.06" smashed="yes" rot="R270">
+<instance part="R1" gate="A" x="-10.16" y="99.06" smashed="yes" rot="R270">
 <attribute name="NAME" x="-15.0876" y="91.0844" size="3.4798" layer="95" ratio="10" rot="SR270"/>
 <attribute name="VALUE" x="-8.0772" y="97.2312" size="3.4798" layer="96" ratio="10" rot="SR270"/>
 </instance>
-<instance part="R5" gate="A" x="25.4" y="55.88" smashed="yes" rot="R270">
+<instance part="R2" gate="A" x="25.4" y="55.88" smashed="yes" rot="R270">
 <attribute name="NAME" x="20.4724" y="50.4444" size="3.4798" layer="95" ratio="10" rot="SR270"/>
 <attribute name="VALUE" x="27.4828" y="56.5912" size="3.4798" layer="96" ratio="10" rot="SR270"/>
 </instance>
@@ -7614,7 +7614,7 @@ type 0309, grid 2.5 mm</description>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="-25.4" y1="78.74" x2="-10.16" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="78.74" x2="-10.16" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R4" gate="A" pin="3"/>
+<pinref part="R1" gate="A" pin="3"/>
 <junction x="-10.16" y="78.74"/>
 </segment>
 <segment>
@@ -7631,7 +7631,7 @@ type 0309, grid 2.5 mm</description>
 <wire x1="58.42" y1="35.56" x2="58.42" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R5" gate="A" pin="3"/>
+<pinref part="R2" gate="A" pin="3"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 </segment>
@@ -7650,7 +7650,7 @@ type 0309, grid 2.5 mm</description>
 <segment>
 <wire x1="25.4" y1="55.88" x2="5.08" y2="55.88" width="0.1524" layer="91"/>
 <label x="5.08" y="58.42" size="1.778" layer="95"/>
-<pinref part="R5" gate="A" pin="1"/>
+<pinref part="R2" gate="A" pin="1"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="5"/>
@@ -7695,14 +7695,14 @@ type 0309, grid 2.5 mm</description>
 <wire x1="0" y1="88.9" x2="15.24" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
 <junction x="0" y="88.9"/>
-<pinref part="R4" gate="A" pin="2"/>
+<pinref part="R1" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="L8" gate="G$1" pin="2"/>
 <wire x1="-10.16" y1="99.06" x2="-10.16" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="R4" gate="A" pin="1"/>
+<pinref part="R1" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="ANT_IN" class="0">
@@ -7813,7 +7813,7 @@ type 0309, grid 2.5 mm</description>
 <segment>
 <pinref part="L7" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="45.72" x2="33.02" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="R5" gate="A" pin="2"/>
+<pinref part="R2" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="VIN" class="1">
