@@ -8663,7 +8663,7 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 </class>
 </classes>
 <parts>
-<part name="C22" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="33U"/>
+<part name="C22" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:6240335/1" value="33U"/>
 <part name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="0.1U"/>
 <part name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="10n"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -8703,7 +8703,6 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 <part name="L3" library="MLF2012E5R6KT000" deviceset="MLF2012E5R6KT000" device="" value="5.6uH"/>
 <part name="R7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="100"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-2X4" device="" package3d_urn="urn:adsk.eagle:package:6240893/1"/>
@@ -8713,7 +8712,7 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 <part name="Q2" library="zort2" deviceset="2SCR574D3TL1" device="TRANS_2SCR573_TO-252"/>
 <part name="L2" library="zort2" deviceset="L" device="CHIP-1008(2520-METRIC)" package3d_urn="urn:adsk.eagle:package:16378469/1" technology="_" value="470uH"/>
 <part name="J1" library="SJ-3523-SMT-TR" deviceset="SJ-3523-SMT-TR" device=""/>
-<part name="X1" library="zort2" deviceset="SMACONNECTOR" device="_EDGE" package3d_urn="urn:adsk.eagle:package:6240945/1"/>
+<part name="ANT" library="zort2" deviceset="SMACONNECTOR" device="_EDGE" package3d_urn="urn:adsk.eagle:package:6240945/1"/>
 <part name="Q1" library="zort2" deviceset="MMBT2222A-7-F" device="SOT-23_DIO-M"/>
 </parts>
 <sheets>
@@ -8881,9 +8880,6 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 <instance part="GND21" gate="1" x="25.4" y="-22.86" smashed="yes">
 <attribute name="VALUE" x="22.86" y="-25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="GND22" gate="1" x="43.18" y="-17.78" smashed="yes">
-<attribute name="VALUE" x="40.64" y="-20.32" size="1.778" layer="96"/>
-</instance>
 <instance part="GND23" gate="1" x="165.1" y="0" smashed="yes">
 <attribute name="VALUE" x="162.56" y="-2.54" size="1.778" layer="96"/>
 </instance>
@@ -8914,7 +8910,7 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 <instance part="J1" gate="G$1" x="180.34" y="78.74" smashed="yes" rot="R180">
 <attribute name="NAME" x="185.440409375" y="73.002040625" size="2.201440625" layer="95" rot="R180"/>
 </instance>
-<instance part="X1" gate="G$1" x="162.56" y="10.16" smashed="yes">
+<instance part="ANT" gate="G$1" x="162.56" y="10.16" smashed="yes">
 <attribute name="NAME" x="170.18" y="12.7" size="1.27" layer="95"/>
 <attribute name="VALUE" x="170.18" y="10.16" size="1.27" layer="95"/>
 </instance>
@@ -9028,18 +9024,13 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 <pinref part="GND20" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GND22" gate="1" pin="GND"/>
-<wire x1="43.18" y1="-5.08" x2="43.18" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="A" pin="3"/>
-</segment>
-<segment>
 <pinref part="GND23" gate="1" pin="GND"/>
-<pinref part="X1" gate="G$1" pin="GND4"/>
+<pinref part="ANT" gate="G$1" pin="GND4"/>
 <junction x="165.1" y="2.54"/>
 </segment>
 <segment>
 <pinref part="GND24" gate="1" pin="GND"/>
-<pinref part="X1" gate="G$1" pin="GND2"/>
+<pinref part="ANT" gate="G$1" pin="GND2"/>
 <junction x="165.1" y="17.78"/>
 </segment>
 <segment>
@@ -9054,6 +9045,11 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 <segment>
 <pinref part="GND21" gate="1" pin="GND"/>
 <pinref part="L2" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="4"/>
+<wire x1="172.72" y1="-45.72" x2="193.04" y2="-45.72" width="0.1524" layer="91"/>
+<label x="195.58" y="-45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="6V_DC" class="1">
@@ -9163,7 +9159,7 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 <pinref part="J1" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="KEY_IN" class="0">
+<net name="KEY_IN" class="1">
 <segment>
 <label x="154.94" y="73.66" size="1.778" layer="95" rot="R270"/>
 <pinref part="J1" gate="G$1" pin="3"/>
@@ -9175,6 +9171,10 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 <wire x1="-2.54" y1="-43.18" x2="-2.54" y2="-50.8" width="0.1524" layer="91"/>
 <label x="-2.54" y="-53.34" size="1.778" layer="95"/>
 <wire x1="-2.54" y1="-50.8" x2="5.08" y2="-50.8" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="A" pin="3"/>
+<wire x1="-2.54" y1="-43.18" x2="43.18" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-43.18" x2="43.18" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="-2.54" y="-43.18"/>
 </segment>
 </net>
 <net name="ANT_IN" class="0">
@@ -9201,7 +9201,7 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 <label x="195.58" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="N$19" class="1">
 <segment>
 <pinref part="C12" gate="G$1" pin="2"/>
 <wire x1="-73.66" y1="12.7" x2="-73.66" y2="-20.32" width="0.1524" layer="91"/>
@@ -9214,7 +9214,7 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 <pinref part="Q1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="N$20" class="1">
 <segment>
 <pinref part="C11" gate="G$1" pin="1"/>
 <junction x="-17.78" y="-30.48"/>
@@ -9297,19 +9297,19 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 <wire x1="154.94" y1="10.16" x2="137.16" y2="10.16" width="0.1524" layer="91"/>
 <junction x="137.16" y="10.16"/>
 <pinref part="L5" gate="G$1" pin="2"/>
-<pinref part="X1" gate="G$1" pin="ANT"/>
+<pinref part="ANT" gate="G$1" pin="ANT"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <wire x1="160.02" y1="2.54" x2="165.0238" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="GND3"/>
+<pinref part="ANT" gate="G$1" pin="GND3"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <wire x1="160.02" y1="17.78" x2="165.0238" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="GND1"/>
+<pinref part="ANT" gate="G$1" pin="GND1"/>
 </segment>
 </net>
 </nets>

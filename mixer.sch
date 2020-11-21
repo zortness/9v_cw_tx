@@ -7640,6 +7640,11 @@ type 0309, grid 2.5 mm</description>
 <wire x1="-33.02" y1="15.24" x2="-12.7" y2="15.24" width="0.1524" layer="91"/>
 <label x="-10.16" y="15.24" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="A" pin="6"/>
+<wire x1="-33.02" y1="17.78" x2="-12.7" y2="17.78" width="0.1524" layer="91"/>
+<label x="-10.16" y="17.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="6V_DC" class="1">
 <segment>

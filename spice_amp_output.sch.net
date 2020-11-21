@@ -1,0 +1,62 @@
+* SpiceNetList
+* 
+* Exported from spice_amp_output.sch at 10/20/2020 7:24 PM
+* 
+* EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+* 
+.TEMP=25.000000
+* --------- .OPTIONS ---------
+* --------- .PARAMS ---------
+
+* --------- devices ---------
+Q_Q2 N_9 N_8 0 QNPN 
+C_C19 N_9 N_10 10n 
+C_C12 N_1 Q1_BASE 150p 
+R_R4 Q1_EMITTER 0 1.5k 
+R_R5 Q1_BASE N_4 6.8k 
+R_R6 0 Q1_BASE 6.8k 
+L_L5 N_10 ANTENNA_OUT 1.2u 
+C_C10 N_7 0 150p 
+C_C9 N_10 ANTENNA_IN 100p 
+C_C7 ANTENNA_OUT 0 390p 
+V_V2 N_1 0 DC 0 AC .5V SIN(0 1 7Meg 0 0) 
+R_R98 0 ANTENNA_IN 50 
+L_L3 Q1_C N_4 5.6u 
+R_R99 ANTENNA_OUT 0 50 
+V_V1 N_4 0 9V 
+L_L4 N_9 N_4 16u 
+R_R7 N_7 N_8 100 
+C_C6 ANTENNA_OUT 0 390p 
+C_C8 N_10 0 680p 
+L_L2 0 N_8 470u 
+C_C11 Q1_EMITTER 0 10n 
+Q_Q1 Q1_C Q1_BASE Q1_EMITTER QNPN 
+C_C18 Q1_C N_7 150p 
+
+* --------- models ---------
+
+* (model found in library)
+
+**********************
+* Autodesk EAGLE - Spice Model File
+* Date: 9/17/17
+* basic npn intrinsic model
+**********************
+.MODEL QNPN NPN
+
+
+* --------- simulation ---------
+.print DC V(Q1_BASE) V(Q1_C) V(Q1_EMITTER) V(ANTENNA_IN) V(ANTENNA_OUT) I(V_V2) I(V_V1)
+.print AC V(Q1_BASE) V(Q1_C) V(Q1_EMITTER) V(ANTENNA_IN) V(ANTENNA_OUT) I(V_V2) I(V_V1)
+.print TRAN V(Q1_BASE) V(Q1_C) V(Q1_EMITTER) V(ANTENNA_IN) V(ANTENNA_OUT) I(V_V2) I(V_V1)
+.END
+
+
+
+
+
+
+
+
+
+

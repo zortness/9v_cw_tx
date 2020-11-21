@@ -1,0 +1,34 @@
+
+Circuit: * spicenetlist
+
+Doing analysis at TEMP = 0.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+n_9                                          9
+n_8                                          0
+n_10                                         0
+n_1                                          0
+q1_base                                4.41947
+q1_emitter                             3.58811
+n_4                                          9
+antenna_out                                  0
+n_7                                          0
+antenna_in                                   0
+q1_c                                         9
+l_l2#branch                            -9e-012
+l_l4#branch                          -1.8e-011
+l_l3#branch                        -0.00236839
+l_l5#branch                                  0
+v_v1#branch                          -0.003042
+v_v2#branch                                  0
+
+
+No. of Data Rows : 9593
+ASCII raw file
+
+Note: No ".plot", ".print", or ".fourier" lines; no simulations run
