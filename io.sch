@@ -7074,6 +7074,41 @@ Source: http://cache.national.com/ds/LM/LM386.pdf</description>
 <text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
+<package name="ASPI-0630LR">
+<description>&lt;h1&gt;ASPI-0630LR&lt;/h1&gt;
+&lt;p&gt;
+SMD inductor with a square shape, 7.2mm x 6.65mm x 3.0mm. Pads extended a bit from the OEM recommendations to give about 1mm exposed on each side from under the package.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href="https://abracon.com/Magnetics/power/ASPI-0630LR.pdf"&gt;Specifications here.&lt;/a&gt;
+&lt;/p&gt;</description>
+<wire x1="-3.6" y1="3.4" x2="3.6" y2="3.4" width="0.127" layer="21"/>
+<wire x1="-3.6" y1="-3.4" x2="3.6" y2="-3.4" width="0.127" layer="21"/>
+<smd name="P$1" x="-3.2" y="0" dx="2.75" dy="3.4" layer="1"/>
+<smd name="P$2" x="3.2" y="0" dx="2.75" dy="3.4" layer="1"/>
+<wire x1="-3.6" y1="-3.4" x2="-3.6" y2="-2" width="0.127" layer="21"/>
+<wire x1="3.6" y1="-3.4" x2="3.6" y2="-2" width="0.127" layer="21"/>
+<wire x1="-3.6" y1="3.4" x2="-3.6" y2="2" width="0.127" layer="21"/>
+<wire x1="3.6" y1="3.4" x2="3.6" y2="2" width="0.127" layer="21"/>
+<text x="-3.1" y="3.7" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.3" y="-5" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SRP3012C">
+<description>&lt;H1&gt;SRP3012C&lt;/h1&gt;
+&lt;p&gt;
+Flat SMD inductor by Bourns. Package size is 3.5x3.5mm. Pads extended a bit from recommendation to have more exposure from outside the package for easier soldering. &lt;a href="https://www.bourns.com/docs/product-datasheets/srp3012c.pdf"&gt;Data sheet&lt;/a&gt;.
+&lt;/p&gt;</description>
+<wire x1="-1.7" y1="1.8" x2="1.8" y2="1.8" width="0.127" layer="21"/>
+<wire x1="1.8" y1="1.8" x2="1.8" y2="1.4" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="1.8" x2="-1.7" y2="1.4" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="-1.4" x2="-1.7" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="-1.8" x2="1.8" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="1.8" y1="-1.8" x2="1.8" y2="-1.4" width="0.127" layer="21"/>
+<smd name="P$1" x="-1.7" y="0" dx="1.5" dy="1.45" layer="1"/>
+<smd name="P$2" x="1.7" y="0" dx="1.5" dy="1.45" layer="1"/>
+<text x="-1.5" y="2" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.6" y="-2.6" size="0.6096" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="INDC1006X60N" urn="urn:adsk.eagle:package:16378468/1" type="model" library_version="5">
@@ -7266,6 +7301,15 @@ Source: http://cache.national.com/ds/LM/LM386.pdf</description>
 <pin name="GND2" x="2.54" y="7.62" visible="off" length="short" direction="pwr" rot="R270"/>
 <pin name="GND3" x="-2.54" y="-7.62" visible="off" length="short" direction="pwr" rot="R90"/>
 <pin name="GND4" x="2.54" y="-7.62" visible="off" length="short" direction="pwr" rot="R90"/>
+</symbol>
+<symbol name="INDUCTOR">
+<pin name="1" x="-6.35" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="6.35" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-1.27" y="2.54" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<wire x1="-3.81" y1="0" x2="-1.27" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="1.27" y1="0" x2="3.81" y2="0" width="0.254" layer="94" curve="-180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -7806,62 +7850,46 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 </device>
 </devices>
 </deviceset>
-</devicesets>
-</library>
-<library name="MLF2012E5R6KT000">
-<packages>
-<package name="INDC2012X87N">
-<text x="-2.035" y="0.935" size="0.5" layer="25">&gt;NAME</text>
-<text x="-2.035" y="-1.405" size="0.5" layer="27">&gt;VALUE</text>
-<wire x1="-2" y1="0.85" x2="2" y2="0.85" width="0.0508" layer="39"/>
-<wire x1="2" y1="0.85" x2="2" y2="-0.85" width="0.0508" layer="39"/>
-<wire x1="2" y1="-0.85" x2="-2" y2="-0.85" width="0.0508" layer="39"/>
-<wire x1="-2" y1="-0.85" x2="-2" y2="0.85" width="0.0508" layer="39"/>
-<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
-<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
-<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.127" layer="51"/>
-<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="51"/>
-<rectangle x1="-1" y1="-0.625" x2="-0.5" y2="0.625" layer="51"/>
-<rectangle x1="0.5" y1="-0.625" x2="1" y2="0.625" layer="51"/>
-<wire x1="-0.4" y1="0.6" x2="0.4" y2="0.6" width="0.127" layer="21"/>
-<wire x1="-0.4" y1="-0.6" x2="0.4" y2="-0.6" width="0.127" layer="21"/>
-<smd name="1" x="-1.175" y="0" dx="1.15" dy="1" layer="1"/>
-<smd name="2" x="1.175" y="0" dx="1.15" dy="1" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="MLF2012E5R6KT000">
-<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94" curve="-191.421"/>
-<wire x1="-1.27" y1="0" x2="0" y2="0" width="0.1524" layer="94" curve="-191.421"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.1524" layer="94" curve="-191.421"/>
-<wire x1="0" y1="0" x2="1.27" y2="0" width="0.1524" layer="94" curve="-191.421"/>
-<text x="-5.08846875" y="1.90818125" size="1.780959375" layer="95">&gt;NAME</text>
-<text x="-5.085440625" y="-2.54271875" size="1.779909375" layer="96">&gt;VALUE</text>
-<pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="1" x="-7.62" y="0" visible="pad" length="middle" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MLF2012E5R6KT000" prefix="L">
-<description>MLF Series 0805 5.6 uH ±10 % Tol. 15 mA Magnetic Shielded Multilayer Inductor</description>
+<deviceset name="ASPI-0630LR">
+<description>&lt;h1&gt;ASPI-0630LR&lt;/h1&gt;
+&lt;p&gt;
+SMD inductors with flat square cases
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href="https://www.digikey.com/en/products/detail/abracon-llc/ASPI-0630LR-150M-T15/3059603"&gt;DigiKey Link&lt;/a&gt;
+&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="MLF2012E5R6KT000" x="0" y="0"/>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="INDC2012X87N">
+<device name="" package="ASPI-0630LR">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value=" Inductor RF Chip Shielded Multi-Layer 5.6uH 10% 4MHz 50Q-Factor Ferrite 15mA 600mOhm DCR 0805 T/R "/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value=""/>
-<attribute name="MF" value="TDK"/>
-<attribute name="MP" value="MLF2012E5R6KT000"/>
-<attribute name="PACKAGE" value="0805 TDK"/>
-</technology>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SRP3012C-5R6M">
+<description>&lt;H1&gt;SRP3012C-5R6M&lt;/h1&gt;
+&lt;p&gt;
+SMD 1.5A 15uH inductor with a flat square package. 
+&lt;a href="https://www.digikey.com/en/products/detail/bourns-inc/SRP3012C-5R6M/11633310"&gt;DigiKey Link&lt;/a&gt;.
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SRP3012C">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -8593,64 +8621,6 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 </deviceset>
 </devicesets>
 </library>
-<library name="LQW18AN16NG8ZD">
-<packages>
-<package name="INDC1609X100N">
-<text x="-1.49" y="-0.9" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
-<text x="-1.49" y="0.9" size="0.5" layer="25">&gt;NAME</text>
-<wire x1="0.88" y1="-0.55" x2="-0.88" y2="-0.55" width="0.127" layer="51"/>
-<wire x1="0.88" y1="0.55" x2="-0.88" y2="0.55" width="0.127" layer="51"/>
-<wire x1="0.88" y1="-0.55" x2="0.88" y2="0.55" width="0.127" layer="51"/>
-<wire x1="-0.88" y1="-0.55" x2="-0.88" y2="0.55" width="0.127" layer="51"/>
-<wire x1="-0.15" y1="0.55" x2="0.15" y2="0.55" width="0.127" layer="21"/>
-<wire x1="-0.15" y1="-0.55" x2="0.15" y2="-0.55" width="0.127" layer="21"/>
-<wire x1="-1.49" y1="-0.81" x2="1.49" y2="-0.81" width="0.05" layer="39"/>
-<wire x1="-1.49" y1="0.81" x2="1.49" y2="0.81" width="0.05" layer="39"/>
-<wire x1="-1.49" y1="-0.81" x2="-1.49" y2="0.81" width="0.05" layer="39"/>
-<wire x1="1.49" y1="-0.81" x2="1.49" y2="0.81" width="0.05" layer="39"/>
-<smd name="1" x="-0.855" y="0" dx="0.77" dy="1.12" layer="1"/>
-<smd name="2" x="0.855" y="0" dx="0.77" dy="1.12" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="LQW18AN16NG8ZD">
-<text x="-7.62" y="5.08" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
-<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
-<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
-<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LQW18AN16NG8ZD" prefix="L">
-<description>FIXED IND 16NH 1.4A 75 MOHM </description>
-<gates>
-<gate name="G$1" symbol="LQW18AN16NG8ZD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="INDC1609X100N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value=" Inductor with Inductance: 16nH Tol. +/-2%, Package: 0603 (1608) "/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="490-15650-1-ND"/>
-<attribute name="MF" value="Murata"/>
-<attribute name="MP" value="LQW18AN16NG8ZD"/>
-<attribute name="PACKAGE" value="1609 Murata"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/LQW18AN16NG8ZD/?ref=eda"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8700,14 +8670,14 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="L3" library="MLF2012E5R6KT000" deviceset="MLF2012E5R6KT000" device="" value="5.6uH"/>
+<part name="L3" library="zort2" deviceset="SRP3012C-5R6M" device="" value="5.6uH"/>
 <part name="R7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="100"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-2X4" device="" package3d_urn="urn:adsk.eagle:package:6240893/1"/>
 <part name="L5" library="Inductor" library_urn="urn:adsk.eagle:library:16378440" deviceset="L" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16378480/1" technology="_" value="1.2uH"/>
-<part name="L4" library="LQW18AN16NG8ZD" deviceset="LQW18AN16NG8ZD" device="" value="16uH"/>
+<part name="L4" library="zort2" deviceset="ASPI-0630LR" device="" value="16uH"/>
 <part name="U$1" library="zort2" deviceset="9V_968" device="9V_968_SMD"/>
 <part name="Q2" library="zort2" deviceset="2SCR574D3TL1" device="TRANS_2SCR573_TO-252"/>
 <part name="L2" library="zort2" deviceset="L" device="CHIP-1008(2520-METRIC)" package3d_urn="urn:adsk.eagle:package:16378469/1" technology="_" value="470uH"/>
@@ -8869,9 +8839,9 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 <instance part="GND20" gate="1" x="137.16" y="-15.24" smashed="yes">
 <attribute name="VALUE" x="134.62" y="-17.78" size="1.778" layer="96"/>
 </instance>
-<instance part="L3" gate="G$1" x="-17.78" y="7.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="-19.68818125" y="2.53153125" size="1.780959375" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-15.23728125" y="2.534559375" size="1.779909375" layer="96" rot="R90"/>
+<instance part="L3" gate="G$1" x="-17.78" y="6.35" smashed="yes" rot="R90">
+<attribute name="NAME" x="-19.68818125" y="1.26153125" size="1.780959375" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-15.23728125" y="1.264559375" size="1.779909375" layer="96" rot="R90"/>
 </instance>
 <instance part="R7" gate="G$1" x="15.24" y="0" smashed="yes">
 <attribute name="NAME" x="11.43" y="1.4986" size="1.778" layer="95"/>
@@ -8894,9 +8864,9 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 <attribute name="NAME" x="109.22" y="12.7" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="109.22" y="7.62" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="L4" gate="G$1" x="43.18" y="17.78" smashed="yes" rot="R90">
-<attribute name="NAME" x="41.27181875" y="12.69153125" size="1.780959375" layer="95" rot="R90"/>
-<attribute name="VALUE" x="45.72271875" y="12.694559375" size="1.779909375" layer="96" rot="R90"/>
+<instance part="L4" gate="G$1" x="43.18" y="16.51" smashed="yes" rot="R90">
+<attribute name="NAME" x="41.27181875" y="11.42153125" size="1.780959375" layer="95" rot="R90"/>
+<attribute name="VALUE" x="45.72271875" y="11.424559375" size="1.779909375" layer="96" rot="R90"/>
 </instance>
 <instance part="U$1" gate="G$1" x="-78.74" y="88.9" smashed="yes"/>
 <instance part="Q2" gate="A" x="40.64" y="0" smashed="yes">
@@ -8914,9 +8884,9 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 <attribute name="NAME" x="170.18" y="12.7" size="1.27" layer="95"/>
 <attribute name="VALUE" x="170.18" y="10.16" size="1.27" layer="95"/>
 </instance>
-<instance part="Q1" gate="G$1" x="-48.26" y="-20.32" smashed="yes">
-<attribute name="NAME" x="-48.26" y="-13.97" size="2.54" layer="95" ratio="10" rot="SR0"/>
-<attribute name="VALUE" x="-53.34" y="-26.67" size="0.8128" layer="96" ratio="10" rot="SR0"/>
+<instance part="Q1" gate="G$1" x="-20.32" y="-20.32" smashed="yes">
+<attribute name="NAME" x="-25.4" y="-13.97" size="2.54" layer="95" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="-25.4" y="-26.67" size="0.8128" layer="96" ratio="10" rot="SR0"/>
 </instance>
 </instances>
 <busses>
@@ -8952,12 +8922,12 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 </segment>
 <segment>
 <pinref part="L3" gate="G$1" pin="2"/>
-<wire x1="-17.78" y1="15.24" x2="-17.78" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="12.7" x2="-17.78" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="17.78" x2="-12.7" y2="17.78" width="0.1524" layer="91"/>
 <label x="-17.78" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="43.18" y1="25.4" x2="43.18" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="22.86" x2="43.18" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="27.94" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
 <label x="27.94" y="25.4" size="1.778" layer="95"/>
 <pinref part="L4" gate="G$1" pin="2"/>
@@ -9207,7 +9177,7 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 <wire x1="-73.66" y1="12.7" x2="-73.66" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="-20.32" x2="-63.5" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="-63.5" y1="-20.32" x2="-53.34" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="-20.32" x2="-25.4" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="-63.5" y="-20.32"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="-63.5" y1="-20.32" x2="-63.5" y2="-17.78" width="0.1524" layer="91"/>
@@ -9223,11 +9193,10 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="-2.54" y1="-30.48" x2="-2.54" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="3"/>
-<wire x1="-45.72" y1="-25.4" x2="-17.78" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="-25.4" x2="-17.78" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="N$21" class="1">
 <segment>
 <pinref part="L3" gate="G$1" pin="1"/>
 <wire x1="-17.78" y1="-15.24" x2="-17.78" y2="0" width="0.1524" layer="91"/>
@@ -9235,10 +9204,9 @@ https://www.digikey.com/product-detail/en/keystone-electronics/968/36-968-ND/151
 <wire x1="-17.78" y1="0" x2="-5.08" y2="0" width="0.1524" layer="91"/>
 <junction x="-17.78" y="0"/>
 <pinref part="Q1" gate="G$1" pin="2"/>
-<wire x1="-45.72" y1="-15.24" x2="-17.78" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="N$22" class="1">
 <segment>
 <pinref part="C18" gate="G$1" pin="2"/>
 <pinref part="C10" gate="G$1" pin="1"/>
